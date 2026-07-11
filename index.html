@@ -5,32 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ISD Frido Manpower Hub</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f9fafb; margin: 0; padding: 30px; color: #333; }
-        .container { max-width: 1000px; margin: 0 auto; background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
-        h1 { font-size: 26px; margin-bottom: 5px; color: #111; }
-        p.subtitle { color: #666; margin-top: 0; font-size: 14px; margin-bottom: 25px; }
-        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; margin: 0; padding: 30px; color: #1c1e21; }
+        .container { max-width: 1100px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+        
+        /* Header & Filters */
+        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 2px solid #f0f2f5; padding-bottom: 15px; }
+        h1 { font-size: 24px; margin: 0 0 5px 0; color: #111; }
+        .controls { display: flex; align-items: center; gap: 15px; }
+        .filter-group { display: flex; flex-direction: column; gap: 4px; }
+        .filter-group label { font-size: 12px; font-weight: 600; color: #666; text-transform: uppercase; letter-spacing: 0.5px; }
+        select { padding: 8px 12px; font-size: 14px; border-radius: 6px; border: 1px solid #ccd0d5; cursor: pointer; background-color: #f8f9fa; font-weight: 500; min-width: 150px; }
+        
+        /* Stats Cards */
+        .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-bottom: 25px; }
+        .stat-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; text-align: center; }
+        .stat-title { font-size: 13px; color: #64748b; font-weight: 600; margin-bottom: 8px; }
+        .stat-value { font-size: 24px; font-weight: 700; color: #0f172a; }
+        .text-green { color: #16a34a; }
+        .text-red { color: #dc2626; }
+
+        /* Table */
+        table { width: 100%; border-collapse: collapse; }
         th, td { padding: 14px 15px; text-align: left; border-bottom: 1px solid #eee; }
-        th { background-color: #f8f9fa; font-weight: 600; color: #444; }
-        tr:hover { background-color: #f1f5f9; }
-        .badge { padding: 6px 12px; border-radius: 20px; font-size: 12px; font-weight: bold; }
+        th { background-color: #f8f9fa; font-weight: 600; color: #444; border-radius: 4px; font-size: 14px; }
+        tr:hover { background-color: #f8fafc; }
+        .time-cell { font-family: monospace; font-size: 14px; background: #f1f5f9; padding: 4px 8px; border-radius: 4px; color: #334155; }
+        
+        /* Badges */
+        .badge { padding: 6px 12px; border-radius: 20px; font-size: 12px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px; }
         .badge.checked-in { background: #d1e7dd; color: #0f5132; }
         .badge.completed { background: #cff4fc; color: #055160; }
         .badge.week-off { background: #e2e3e5; color: #41464c; }
-        .badge.pending { background: #f8d7da; color: #842029; }
+        .badge.absent { background: #f8d7da; color: #842029; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>ISD Frido Manpower Live Status</h1>
-        <p class="subtitle" id="last-updated">Fetching latest data...</p>
+        <div class="header">
+            <div>
+                <h1>ISD Frido Manpower</h1>
+                <small style="color: #666;" id="last-updated">Fetching live data...</small>
+            </div>
+            <div class="controls">
+                <div class="filter-group">
+                    <label for="date-filter">Date</label>
+                    <select id="date-filter"></select>
+                </div>
+                <div class="filter-group">
+                    <label for="vertical-filter">Vertical</label>
+                    <select id="vertical-filter">
+                        <option value="All">All Verticals</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-title">Morning In</div>
+                <div class="stat-value text-green" id="stat-m-in">0</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-title">Morning Pending</div>
+                <div class="stat-value text-red" id="stat-m-pen">0</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-title">Evening Out</div>
+                <div class="stat-value text-green" id="stat-e-out">0</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-title">Evening Pending</div>
+                <div class="stat-value text-red" id="stat-e-pen">0</div>
+            </div>
+        </div>
+
         <table>
             <thead>
                 <tr>
                     <th>Agent Name</th>
                     <th>Vertical</th>
-                    <th>Morning Slack</th>
-                    <th>Evening Slack</th>
+                    <th>Morning In</th>
+                    <th>Evening Out</th>
                     <th>Status</th>
                 </tr>
             </thead>
@@ -40,41 +95,107 @@
     </div>
 
     <script>
+        let allData = [];
+        let currentDate = "";
+        let currentVertical = "All";
+
         async function loadData() {
             try {
-                // Fetching the JSON generated by your Python script
                 const response = await fetch('public/dashboard.json');
-                const data = await response.json();
+                allData = await response.json();
                 
-                const tbody = document.getElementById('dashboard-body');
-                tbody.innerHTML = '';
-                
-                data.forEach(emp => {
-                    let badgeClass = 'pending';
-                    if (emp.final_status === 'Checked In') badgeClass = 'checked-in';
-                    if (emp.final_status === 'Completed Shift') badgeClass = 'completed';
-                    if (emp.final_status === 'Week Off') badgeClass = 'week-off';
-
-                    tbody.innerHTML += `
-                        <tr>
-                            <td><strong>${emp.agent_name}</strong><br><small style="color: #888;">${emp.email}</small></td>
-                            <td>${emp.vertical}</td>
-                            <td>${emp.morning_status}</td>
-                            <td>${emp.evening_status}</td>
-                            <td><span class="badge ${badgeClass}">${emp.final_status}</span></td>
-                        </tr>
-                    `;
+                // 1. Setup Date Filter
+                const dates = [...new Set(allData.map(item => item.date))];
+                const dateSelect = document.getElementById('date-filter');
+                dateSelect.innerHTML = '';
+                dates.forEach(date => {
+                    const option = document.createElement('option');
+                    option.value = date;
+                    option.text = new Date(date).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
+                    dateSelect.appendChild(option);
                 });
+
+                // 2. Setup Vertical Filter
+                const verticals = [...new Set(allData.map(item => item.vertical).filter(v => v !== ""))].sort();
+                const verticalSelect = document.getElementById('vertical-filter');
+                verticals.forEach(v => {
+                    const option = document.createElement('option');
+                    option.value = v;
+                    option.text = v;
+                    verticalSelect.appendChild(option);
+                });
+
+                // 3. Add Event Listeners
+                dateSelect.addEventListener('change', (e) => {
+                    currentDate = e.target.value;
+                    updateDashboard();
+                });
+                verticalSelect.addEventListener('change', (e) => {
+                    currentVertical = e.target.value;
+                    updateDashboard();
+                });
+
+                // Initialize first view
+                if(dates.length > 0) {
+                    currentDate = dates[0];
+                    updateDashboard();
+                }
                 
-                document.getElementById('last-updated').innerText = `Live Status • Last synced: ${new Date().toLocaleTimeString()}`;
+                document.getElementById('last-updated').innerText = `Data synced at ${new Date().toLocaleTimeString()}`;
             } catch (error) {
-                document.getElementById('last-updated').innerText = "Waiting for the bot to finish its first sync... Check back in 1 minute.";
+                document.getElementById('last-updated').innerText = "Waiting for the bot to run...";
             }
+        }
+
+        function updateDashboard() {
+            // Filter the data based on Date and Vertical
+            let filteredData = allData.filter(emp => emp.date === currentDate);
+            if (currentVertical !== "All") {
+                filteredData = filteredData.filter(emp => emp.vertical === currentVertical);
+            }
+
+            // Variables for our summary math
+            let mIn = 0, mPen = 0, eOut = 0, ePen = 0;
+            
+            const tbody = document.getElementById('dashboard-body');
+            tbody.innerHTML = '';
+            
+            filteredData.forEach(emp => {
+                // --- Math for the Summary Cards ---
+                // We ignore people on "Week Off" so they don't look like they are missing work!
+                if (emp.final_status !== 'Week Off') {
+                    if (emp.morning_time !== "-") mIn++; else mPen++;
+                    if (emp.evening_time !== "-") eOut++; else ePen++;
+                }
+
+                // --- Build the Table Rows ---
+                let badgeClass = 'absent';
+                if (emp.final_status === 'Checked In') badgeClass = 'checked-in';
+                if (emp.final_status === 'Completed Shift') badgeClass = 'completed';
+                if (emp.final_status === 'Week Off') badgeClass = 'week-off';
+
+                const mTime = emp.morning_time !== "-" ? `<span class="time-cell">${emp.morning_time}</span>` : `<span style="color:#aaa">-</span>`;
+                const eTime = emp.evening_time !== "-" ? `<span class="time-cell">${emp.evening_time}</span>` : `<span style="color:#aaa">-</span>`;
+
+                tbody.innerHTML += `
+                    <tr>
+                        <td><strong>${emp.agent_name}</strong><br><small style="color: #888;">${emp.email}</small></td>
+                        <td>${emp.vertical}</td>
+                        <td>${mTime}</td>
+                        <td>${eTime}</td>
+                        <td><span class="badge ${badgeClass}">${emp.final_status}</span></td>
+                    </tr>
+                `;
+            });
+
+            // Update the Summary Cards on the screen
+            document.getElementById('stat-m-in').innerText = mIn;
+            document.getElementById('stat-m-pen').innerText = mPen;
+            document.getElementById('stat-e-out').innerText = eOut;
+            document.getElementById('stat-e-pen').innerText = ePen;
         }
         
         loadData();
-        // Refresh the browser view every 60 seconds automatically
-        setInterval(loadData, 60000);
     </script>
 </body>
 </html>
