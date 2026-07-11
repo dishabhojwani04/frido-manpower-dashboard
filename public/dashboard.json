@@ -1,0 +1,490 @@
+[
+    {
+        "agent_name": "Arati Anjaney Hande",
+        "email": "executive4@myfrido.com",
+        "vertical": "Abandoned High Cart",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Week Off"
+    },
+    {
+        "agent_name": "Shahrukh Khan ",
+        "email": "executive6@myfrido.com",
+        "vertical": "Abandoned High Cart",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Week Off"
+    },
+    {
+        "agent_name": "Akanksha Thakre",
+        "email": "akanksha.t@myfrido.com",
+        "vertical": "Abandoned High Cart",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Vishal Singh",
+        "email": "vishal.s@myfrido.com",
+        "vertical": "Abandoned High Cart",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Pareekshith Shetty",
+        "email": "executive14@myfrido.com",
+        "vertical": "Abandoned High Cart",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Pending / Absent"
+    },
+    {
+        "agent_name": "Janhavi Patil",
+        "email": "janhavi.patil@myfrido.com",
+        "vertical": "Abandoned High Cart",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Aditya Tiwari",
+        "email": "aditya.t@myfrido.com",
+        "vertical": "Abandoned High Cart",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Pending / Absent"
+    },
+    {
+        "agent_name": "Namit Gupta",
+        "email": "namit.g@myfrido.com",
+        "vertical": "Abandoned High Cart",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Pending / Absent"
+    },
+    {
+        "agent_name": "Ayushi Rathore",
+        "email": "ayushi.r@myfrido.com",
+        "vertical": "Abandoned High Cart",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Pending / Absent"
+    },
+    {
+        "agent_name": "Akanksha Sharma",
+        "email": "akanksha.s@myfrido.com",
+        "vertical": "Abandoned High Cart",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Kashish Jaiswal",
+        "email": "kashish.j@myfrido.com",
+        "vertical": "Abandoned High Cart",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Fauziya Praveen",
+        "email": "executive18@myfrido.com",
+        "vertical": "Abandoned High Cart",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Abdul Sohail",
+        "email": "abdul.sohail@myfrido.com",
+        "vertical": "Shop On Whatsapp High Cart",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Apurva Bagde",
+        "email": "apurva.b@myfrido.com",
+        "vertical": "Shop On Whatsapp High Cart",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Suyash Avaskar",
+        "email": "executive13@myfrido.com",
+        "vertical": "Shop On Whatsapp High Cart",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Pending / Absent"
+    },
+    {
+        "agent_name": "Isha Gite",
+        "email": "isha.g@myfrido.com",
+        "vertical": "Shop On Whatsapp High Cart",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Pending / Absent"
+    },
+    {
+        "agent_name": "Vaishnavi Bhaduria",
+        "email": "vaishnavi.b@myfrido.com",
+        "vertical": "Shop On Whatsapp High Cart",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Parth Ziprae",
+        "email": "parth.z@myfrido.com",
+        "vertical": "Shop On Whatsapp High Cart",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Ashwin Petkar",
+        "email": "ashwin.p@myfrido.com",
+        "vertical": "Shop On Whatsapp High Cart",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Pending / Absent"
+    },
+    {
+        "agent_name": "Shamal Yeole",
+        "email": "shamal.y@myfrido.com",
+        "vertical": "Abandoned Low Cart",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Abhijeet Harde",
+        "email": "abhijeet.h@myfrido.com",
+        "vertical": "Abandoned Low Cart",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Gaurav Seolkar",
+        "email": "gaurav.s@myfrido.com",
+        "vertical": "Abandoned Low Cart",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Week Off"
+    },
+    {
+        "agent_name": "Harshal Mutthe",
+        "email": "harshal.m@myfrido.com",
+        "vertical": "Abandoned Low Cart",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Pranali Jadhao",
+        "email": "pranali.j@myfrido.com",
+        "vertical": "Abandoned Low Cart",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Yashasvi Jain",
+        "email": "yashasvi.j@myfrido.com",
+        "vertical": "Abandoned Low Cart",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Pending / Absent"
+    },
+    {
+        "agent_name": "Ishwar Walke",
+        "email": "ishwar.w@myfrido.com",
+        "vertical": "Abandoned Low Cart",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Ankita Ade",
+        "email": "ankita.a@myfrido.com",
+        "vertical": "Abandoned Very Low Cart",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Bhavin Shrimankar",
+        "email": "bhavin.s@myfrido.com",
+        "vertical": "Abandoned Very Low Cart",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Sanskruti Ranaware",
+        "email": "sanskruti.ranaware@myfrido.com",
+        "vertical": "Abandoned Low Cart",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Palak Tiwari",
+        "email": "palak.t@myfrido.com",
+        "vertical": "Immediate Retention Calling",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Priyanshi Pranami",
+        "email": "priyanshi.p@myfrido.com",
+        "vertical": "Immediate Retention Calling",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Week Off"
+    },
+    {
+        "agent_name": "Shyamli Parmar",
+        "email": "shyamli.p@myfrido.com",
+        "vertical": "Immediate Retention Calling",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Week Off"
+    },
+    {
+        "agent_name": "Prince Singh",
+        "email": "prince.s@myfrido.com",
+        "vertical": "Immediate Retention Calling",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Sandeep Barman",
+        "email": "sandeep.b@myfrido.com",
+        "vertical": "Immediate Retention Calling",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Sneha Choubey",
+        "email": "sneha.c@myfrido.com",
+        "vertical": "Immediate Retention Calling",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Pending / Absent"
+    },
+    {
+        "agent_name": "Suraj Shinde",
+        "email": "suraj.shinde@myfrido.com",
+        "vertical": "Immediate Retention Calling",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Prathamesh Rathod",
+        "email": "prathamesh.r@myfrido.com",
+        "vertical": "Immediate Retention Calling",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Harshal Wadyalkar",
+        "email": "harshal.w@myfrido.com",
+        "vertical": "Immediate Retention Calling",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Pending / Absent"
+    },
+    {
+        "agent_name": "Vimarsh Raina",
+        "email": "vcagent2@myfrido.com",
+        "vertical": "Shop On Video Call",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Himani Mehra",
+        "email": "himani.m@myfrido.com",
+        "vertical": "Shop On Video Call",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Pending / Absent"
+    },
+    {
+        "agent_name": "Shreyashi Jagtap",
+        "email": "shreyasi.j@myfrido.com",
+        "vertical": "Shop On Call",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Abhinav Shrivastava",
+        "email": "executive12@myfrido.com",
+        "vertical": "Shop On Call",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Pending / Absent"
+    },
+    {
+        "agent_name": "Omkar Mali",
+        "email": "omkar.m@myfrido.com",
+        "vertical": "Incoming Call",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Pending / Absent"
+    },
+    {
+        "agent_name": "Pranav Shah",
+        "email": "pranav.s@myfrido.com",
+        "vertical": "Incoming Call",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Week Off"
+    },
+    {
+        "agent_name": "Anjali Pal",
+        "email": "anjali.pal@myfrido.com",
+        "vertical": "Incoming Call",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Pending / Absent"
+    },
+    {
+        "agent_name": "Oshina Mittal",
+        "email": "oshina.m@myfrido.com",
+        "vertical": "Coupon Code Calling",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Kopal Tamrakar",
+        "email": "kopal.t@myfrido.com",
+        "vertical": "Coupon Code Calling",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Shrushri Landge",
+        "email": "shrushti.l@myfrido.com",
+        "vertical": "Coupon Code Calling",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Sakshi Mehra",
+        "email": "sakshi.m@myfrido.com",
+        "vertical": "Coupon Code Calling",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Pending / Absent"
+    },
+    {
+        "agent_name": "Vartika Dongre",
+        "email": "vartika.d@myfrido.com",
+        "vertical": "Coupon Code Calling",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Pending / Absent"
+    },
+    {
+        "agent_name": "Vayu Jain",
+        "email": "vayufrido@gmail.com",
+        "vertical": "Coupon Code Calling",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Week Off"
+    },
+    {
+        "agent_name": "Vaishnavi Chougule",
+        "email": "vaishnavi.c@myfrido.com",
+        "vertical": "Shop On Whatsapp Low Cart",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Pending / Absent"
+    },
+    {
+        "agent_name": "Bushra Sheikh",
+        "email": "bushra.s@myfrido.com",
+        "vertical": "Shop On Whatsapp Low Cart",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Jagriti Trigunait",
+        "email": "jagriti.t@myfrido.com",
+        "vertical": "Shop On Whatsapp Low Cart",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Pending / Absent"
+    },
+    {
+        "agent_name": "Padmavati More",
+        "email": "padmavati.m@myfrido.com",
+        "vertical": "Shop On Whatsapp Low Cart",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Pending / Absent"
+    },
+    {
+        "agent_name": "Akshat Sharma",
+        "email": "akshat.sharma@myfrido.com",
+        "vertical": "Abandoned Very Low Cart",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Subhalaxmi Satpathy",
+        "email": "subhalaxmi.s@myfrido.com",
+        "vertical": "Abandoned Very Low Cart",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Week Off"
+    },
+    {
+        "agent_name": "Dona Sharma",
+        "email": "dona.s@myfrido.com",
+        "vertical": "Meta Leadgen",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Week Off"
+    },
+    {
+        "agent_name": "Mannaraj Agrawal",
+        "email": "mannraj.a@myfrido.com",
+        "vertical": "Meta Leadgen",
+        "morning_status": "Checked In",
+        "evening_status": "Pending",
+        "final_status": "Checked In"
+    },
+    {
+        "agent_name": "Shilpi",
+        "email": "shilpi@myfrido.com",
+        "vertical": "Meta Leadgen",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Pending / Absent"
+    },
+    {
+        "agent_name": "Khushboo Thawkar",
+        "email": "khushboo.t@myfrido.com",
+        "vertical": "Abandoned Very Low Cart",
+        "morning_status": "Pending",
+        "evening_status": "Pending",
+        "final_status": "Pending / Absent"
+    }
+]
