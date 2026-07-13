@@ -44,13 +44,15 @@ def main():
         
     all_dates = sorted(list(morning_dates.union(evening_dates_shifted)), reverse=True)
     
+    # *** DESIGNATION LIST ***
+    team_leads = ["aayush goyal", "rishab de", "ankur singh", "dhanendra kumar"]
+    
     dashboard_data = []
     
     for date_str in all_dates:
         date_obj = datetime.strptime(date_str, '%Y-%m-%d')
         day_name = date_obj.strftime('%a') 
         
-        # Calculate Yesterday's Date & Name
         prev_date_obj = date_obj - timedelta(days=1)
         prev_date_str = prev_date_obj.strftime('%Y-%m-%d')
         prev_day_name = prev_date_obj.strftime('%a') 
@@ -65,8 +67,14 @@ def main():
             email = row['Official Email']
             if not email or email == 'nan':
                 continue
+            
+            # *** ASSIGN DESIGNATION ***
+            agent_name = str(row['Agent Name']).strip()
+            if agent_name.lower() in team_leads:
+                designation = "Team Lead"
+            else:
+                designation = "Executive"
                 
-            # *** SPLIT ROSTER CHECK ***
             roster_status_morning = row.get(day_name, 'DS')
             roster_status_evening = row.get(prev_day_name, 'DS')
             
@@ -75,8 +83,9 @@ def main():
                 
             dashboard_data.append({
                 "date": date_str,
-                "agent_name": row['Agent Name'],
+                "agent_name": agent_name,
                 "email": email,
+                "designation": designation,
                 "vertical": row['Vertical'],
                 "morning_time": m_time if m_time else "-",
                 "evening_time": e_time if e_time else "-",
