@@ -14,24 +14,25 @@
         .filter-group label { font-size: 12px; font-weight: 600; color: #666; text-transform: uppercase; letter-spacing: 0.5px; }
         select { padding: 8px 12px; font-size: 14px; border-radius: 6px; border: 1px solid #ccd0d5; cursor: pointer; background-color: #f8f9fa; font-weight: 500; min-width: 150px; }
         
-        /* Changed back to 4 columns */
         .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-bottom: 25px; }
-        
         .stat-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; text-align: center; }
         .stat-title { font-size: 13px; color: #64748b; font-weight: 600; margin-bottom: 8px; }
         .stat-value { font-size: 24px; font-weight: 700; color: #0f172a; }
         .text-green { color: #16a34a; }
         .text-red { color: #dc2626; }
+        
         table { width: 100%; border-collapse: collapse; }
         th, td { padding: 14px 15px; text-align: left; border-bottom: 1px solid #eee; }
         th { background-color: #f8f9fa; font-weight: 600; color: #444; border-radius: 4px; font-size: 14px; }
         tr:hover { background-color: #f8fafc; }
         .time-cell { font-family: monospace; font-size: 14px; background: #f1f5f9; padding: 4px 8px; border-radius: 4px; color: #334155; }
-        .badge { padding: 6px 12px; border-radius: 20px; font-size: 12px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px; }
+        
+        .badge { padding: 6px 12px; border-radius: 20px; font-size: 12px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px; display: inline-block; text-align: center;}
         .badge.checked-in { background: #d1e7dd; color: #0f5132; }
         .badge.completed { background: #cff4fc; color: #055160; }
         .badge.week-off { background: #e2e3e5; color: #41464c; }
         .badge.absent { background: #f8d7da; color: #842029; }
+        .badge.special { background: #fff3cd; color: #664d03; border: 1px solid #ffe69c; }
     </style>
 </head>
 <body>
@@ -78,6 +79,7 @@
             <thead>
                 <tr>
                     <th>Agent Name</th>
+                    <th>Designation</th>
                     <th>Vertical</th>
                     <th>Morning In</th>
                     <th>Evening Out</th>
@@ -152,50 +154,64 @@
             tbody.innerHTML = '';
             
             filteredData.forEach(emp => {
-                // Morning Logic
-                if (emp.morning_time !== "-") {
-                    mIn++;
-                } else if (emp.morning_roster !== 'OFF') {
-                    mPen++;
-                }
+                let hasMorning = emp.morning_time !== "-";
+                let hasEvening = emp.evening_time !== "-";
+                let isMorningOff = emp.morning_roster === 'OFF';
+                let isEveningOff = emp.evening_roster === 'OFF';
 
-                // Evening Logic
-                if (emp.evening_time !== "-") {
-                    eOut++;
-                } else if (emp.evening_roster !== 'OFF') {
-                    ePen++;
-                }
+                if (hasMorning) { mIn++; } else if (!isMorningOff) { mPen++; }
+                if (hasEvening) { eOut++; } else if (!isEveningOff) { ePen++; }
 
-                // Dynamic Badges
                 let badgeClass = 'absent';
                 let displayStatus = 'Absent';
 
-                if (emp.morning_time !== "-" && emp.evening_time !== "-") {
-                    displayStatus = 'Completed Shift';
-                    badgeClass = 'completed';
-                } else if (emp.morning_time !== "-") {
-                    displayStatus = 'Checked In';
-                    badgeClass = 'checked-in';
-                } else if (emp.evening_time !== "-") {
-                    displayStatus = 'Evening Only';
-                    badgeClass = 'checked-in';
-                } else if (emp.morning_roster === 'OFF' && emp.evening_roster === 'OFF') {
+                if (hasMorning && hasEvening) {
+                    if (isMorningOff || isEveningOff) {
+                        displayStatus = 'Worked on Week Off';
+                        badgeClass = 'special'; 
+                    } else {
+                        displayStatus = 'Completed Shift';
+                        badgeClass = 'completed';
+                    }
+                } else if (hasMorning) {
+                    if (isMorningOff) {
+                        displayStatus = 'Checked In (Week Off)';
+                        badgeClass = 'special';
+                    } else {
+                        displayStatus = 'Checked In';
+                        badgeClass = 'checked-in';
+                    }
+                } else if (hasEvening) {
+                    if (isEveningOff) {
+                        displayStatus = 'Evening Only (Week Off)';
+                        badgeClass = 'special';
+                    } else {
+                        displayStatus = 'Evening Only';
+                        badgeClass = 'checked-in';
+                    }
+                } else if (isMorningOff && isEveningOff) {
                     displayStatus = 'Week Off';
                     badgeClass = 'week-off';
-                } else if (emp.morning_roster === 'OFF') {
+                } else if (isMorningOff) {
                     displayStatus = 'Morning Off';
                     badgeClass = 'week-off';
-                } else if (emp.evening_roster === 'OFF') {
+                } else if (isEveningOff) {
                     displayStatus = 'Evening Off';
                     badgeClass = 'week-off';
                 }
 
-                const mTime = emp.morning_time !== "-" ? `<span class="time-cell">${emp.morning_time}</span>` : `<span style="color:#aaa">-</span>`;
-                const eTime = emp.evening_time !== "-" ? `<span class="time-cell">${emp.evening_time}</span>` : `<span style="color:#aaa">-</span>`;
+                // Make Team Leads blue and bold, Executives gray
+                let desigFormat = emp.designation === 'Team Lead' 
+                    ? `<strong style="color: #0284c7;">${emp.designation}</strong>` 
+                    : `<span style="color: #64748b;">${emp.designation}</span>`;
+
+                const mTime = hasMorning ? `<span class="time-cell">${emp.morning_time}</span>` : `<span style="color:#aaa">-</span>`;
+                const eTime = hasEvening ? `<span class="time-cell">${emp.evening_time}</span>` : `<span style="color:#aaa">-</span>`;
 
                 tbody.innerHTML += `
                     <tr>
                         <td><strong>${emp.agent_name}</strong><br><small style="color: #888;">${emp.email}</small></td>
+                        <td>${desigFormat}</td>
                         <td>${emp.vertical}</td>
                         <td>${mTime}</td>
                         <td>${eTime}</td>
