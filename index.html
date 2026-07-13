@@ -7,16 +7,12 @@
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; margin: 0; padding: 30px; color: #1c1e21; }
         .container { max-width: 1100px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
-        
-        /* Header & Filters */
         .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 2px solid #f0f2f5; padding-bottom: 15px; }
         h1 { font-size: 24px; margin: 0 0 5px 0; color: #111; }
         .controls { display: flex; align-items: center; gap: 15px; }
         .filter-group { display: flex; flex-direction: column; gap: 4px; }
         .filter-group label { font-size: 12px; font-weight: 600; color: #666; text-transform: uppercase; letter-spacing: 0.5px; }
         select { padding: 8px 12px; font-size: 14px; border-radius: 6px; border: 1px solid #ccd0d5; cursor: pointer; background-color: #f8f9fa; font-weight: 500; min-width: 150px; }
-        
-        /* Stats Cards - Now 5 columns to account for everyone */
         .stats-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 15px; margin-bottom: 25px; }
         .stat-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; text-align: center; }
         .stat-title { font-size: 13px; color: #64748b; font-weight: 600; margin-bottom: 8px; }
@@ -24,15 +20,11 @@
         .text-green { color: #16a34a; }
         .text-red { color: #dc2626; }
         .text-gray { color: #64748b; }
-
-        /* Table */
         table { width: 100%; border-collapse: collapse; }
         th, td { padding: 14px 15px; text-align: left; border-bottom: 1px solid #eee; }
         th { background-color: #f8f9fa; font-weight: 600; color: #444; border-radius: 4px; font-size: 14px; }
         tr:hover { background-color: #f8fafc; }
         .time-cell { font-family: monospace; font-size: 14px; background: #f1f5f9; padding: 4px 8px; border-radius: 4px; color: #334155; }
-        
-        /* Badges */
         .badge { padding: 6px 12px; border-radius: 20px; font-size: 12px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px; }
         .badge.checked-in { background: #d1e7dd; color: #0f5132; }
         .badge.completed { background: #cff4fc; color: #055160; }
@@ -61,7 +53,6 @@
             </div>
         </div>
 
-        <!-- Summary Statistics Cards -->
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-title">Morning In</div>
@@ -80,7 +71,7 @@
                 <div class="stat-value text-red" id="stat-e-pen">0</div>
             </div>
             <div class="stat-card">
-                <div class="stat-title">Week Off</div>
+                <div class="stat-title">Today's Week Offs</div>
                 <div class="stat-value text-gray" id="stat-woff">0</div>
             </div>
         </div>
@@ -107,11 +98,9 @@
 
         async function loadData() {
             try {
-                // Fetch new data and prevent browser caching
                 const response = await fetch('public/dashboard.json?nocache=' + new Date().getTime());
                 allData = await response.json();
                 
-                // 1. Setup Date Filter
                 const dates = [...new Set(allData.map(item => item.date))];
                 const dateSelect = document.getElementById('date-filter');
                 dateSelect.innerHTML = '';
@@ -122,7 +111,6 @@
                     dateSelect.appendChild(option);
                 });
 
-                // 2. Setup Vertical Filter
                 const verticals = [...new Set(allData.map(item => item.vertical).filter(v => v !== ""))].sort();
                 const verticalSelect = document.getElementById('vertical-filter');
                 verticals.forEach(v => {
@@ -132,7 +120,6 @@
                     verticalSelect.appendChild(option);
                 });
 
-                // 3. Add Event Listeners
                 dateSelect.addEventListener('change', (e) => {
                     currentDate = e.target.value;
                     updateDashboard();
@@ -142,7 +129,6 @@
                     updateDashboard();
                 });
 
-                // Initialize first view
                 if(dates.length > 0) {
                     currentDate = dates[0];
                     updateDashboard();
@@ -155,13 +141,11 @@
         }
 
         function updateDashboard() {
-            // Filter the data based on Date and Vertical
             let filteredData = allData.filter(emp => emp.date === currentDate);
             if (currentVertical !== "All") {
                 filteredData = filteredData.filter(emp => emp.vertical === currentVertical);
             }
 
-            // ALPHABETICAL SORTING ADDED HERE
             filteredData.sort((a, b) => a.agent_name.localeCompare(b.agent_name));
 
             let mIn = 0, mPen = 0, eOut = 0, ePen = 0, wOff = 0;
@@ -170,18 +154,51 @@
             tbody.innerHTML = '';
             
             filteredData.forEach(emp => {
-                // Math: Count Week Offs separately
-                if (emp.final_status === 'Week Off') {
-                    wOff++;
-                } else {
-                    if (emp.morning_time !== "-") mIn++; else mPen++;
-                    if (emp.evening_time !== "-") eOut++; else ePen++;
+                
+                // --- SPLIT ROSTER MATH LOGIC ---
+                
+                // Morning Logic (Trusts Today's Roster)
+                if (emp.morning_time !== "-") {
+                    mIn++;
+                } else if (emp.morning_roster !== 'OFF') {
+                    mPen++;
                 }
 
+                // Evening Logic (Trusts Yesterday's Roster)
+                if (emp.evening_time !== "-") {
+                    eOut++;
+                } else if (emp.evening_roster !== 'OFF') {
+                    ePen++;
+                }
+
+                // The KPI Card just shows who is scheduled off TODAY
+                if (emp.morning_roster === 'OFF') {
+                    wOff++;
+                }
+
+                // --- DYNAMIC BADGE LOGIC ---
                 let badgeClass = 'absent';
-                if (emp.final_status === 'Checked In') badgeClass = 'checked-in';
-                if (emp.final_status === 'Completed Shift') badgeClass = 'completed';
-                if (emp.final_status === 'Week Off') badgeClass = 'week-off';
+                let displayStatus = 'Absent';
+
+                if (emp.morning_time !== "-" && emp.evening_time !== "-") {
+                    displayStatus = 'Completed Shift';
+                    badgeClass = 'completed';
+                } else if (emp.morning_time !== "-") {
+                    displayStatus = 'Checked In';
+                    badgeClass = 'checked-in';
+                } else if (emp.evening_time !== "-") {
+                    displayStatus = 'Evening Only';
+                    badgeClass = 'checked-in';
+                } else if (emp.morning_roster === 'OFF' && emp.evening_roster === 'OFF') {
+                    displayStatus = 'Week Off';
+                    badgeClass = 'week-off';
+                } else if (emp.morning_roster === 'OFF') {
+                    displayStatus = 'Morning Off';
+                    badgeClass = 'week-off';
+                } else if (emp.evening_roster === 'OFF') {
+                    displayStatus = 'Evening Off';
+                    badgeClass = 'week-off';
+                }
 
                 const mTime = emp.morning_time !== "-" ? `<span class="time-cell">${emp.morning_time}</span>` : `<span style="color:#aaa">-</span>`;
                 const eTime = emp.evening_time !== "-" ? `<span class="time-cell">${emp.evening_time}</span>` : `<span style="color:#aaa">-</span>`;
@@ -192,12 +209,11 @@
                         <td>${emp.vertical}</td>
                         <td>${mTime}</td>
                         <td>${eTime}</td>
-                        <td><span class="badge ${badgeClass}">${emp.final_status}</span></td>
+                        <td><span class="badge ${badgeClass}">${displayStatus}</span></td>
                     </tr>
                 `;
             });
 
-            // Update DOM
             document.getElementById('stat-m-in').innerText = mIn;
             document.getElementById('stat-m-pen').innerText = mPen;
             document.getElementById('stat-e-out').innerText = eOut;
