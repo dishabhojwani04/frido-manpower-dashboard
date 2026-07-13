@@ -44,8 +44,10 @@ def main():
         
     all_dates = sorted(list(morning_dates.union(evening_dates_shifted)), reverse=True)
     
-    # *** DESIGNATION LIST ***
     team_leads = ["aayush goyal", "rishab de", "ankur singh", "dhanendra kumar"]
+    
+    # *** NEW: TYPO-PROOF WEEK OFF LIST ***
+    off_keywords = ["OFF", "WO", "WEEK OFF", "WEEKOFF"]
     
     dashboard_data = []
     
@@ -68,15 +70,18 @@ def main():
             if not email or email == 'nan':
                 continue
             
-            # *** ASSIGN DESIGNATION ***
             agent_name = str(row['Agent Name']).strip()
             if agent_name.lower() in team_leads:
                 designation = "Team Lead"
             else:
                 designation = "Executive"
                 
-            roster_status_morning = row.get(day_name, 'DS')
-            roster_status_evening = row.get(prev_day_name, 'DS')
+            # *** NEW: SMART ROSTER STATUS MATCHER ***
+            raw_morning_status = str(row.get(day_name, '')).strip().upper()
+            raw_evening_status = str(row.get(prev_day_name, '')).strip().upper()
+            
+            roster_status_morning = 'OFF' if raw_morning_status in off_keywords else 'DS'
+            roster_status_evening = 'OFF' if raw_evening_status in off_keywords else 'DS'
             
             m_time = morning_times.get(email, None)
             e_time = evening_times.get(email, None)
