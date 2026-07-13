@@ -34,10 +34,8 @@ def main():
     morning_df['Time'] = morning_df['Timestamp'].dt.strftime('%I:%M %p') 
     evening_df['Time'] = evening_df['Timestamp'].dt.strftime('%I:%M %p')
     
-    # 1. Gather all Morning dates
     morning_dates = set(morning_df['Date'].unique())
     
-    # 2. Gather Evening dates and shift them forward 1 day so they pair with the correct morning!
     evening_dates_shifted = set()
     for ed in evening_df['Date'].unique():
         ed_obj = datetime.strptime(ed, '%Y-%m-%d')
@@ -52,9 +50,10 @@ def main():
         date_obj = datetime.strptime(date_str, '%Y-%m-%d')
         day_name = date_obj.strftime('%a') 
         
-        # *** THE PREVIOUS DAY LOGIC IS BACK ***
+        # Calculate Yesterday's Date & Name
         prev_date_obj = date_obj - timedelta(days=1)
         prev_date_str = prev_date_obj.strftime('%Y-%m-%d')
+        prev_day_name = prev_date_obj.strftime('%a') 
         
         day_morning = morning_df[morning_df['Date'] == date_str]
         day_evening = evening_df[evening_df['Date'] == prev_date_str]
@@ -67,19 +66,12 @@ def main():
             if not email or email == 'nan':
                 continue
                 
-            roster_status = row.get(day_name, 'DS') 
+            # *** SPLIT ROSTER CHECK ***
+            roster_status_morning = row.get(day_name, 'DS')
+            roster_status_evening = row.get(prev_day_name, 'DS')
             
             m_time = morning_times.get(email, None)
             e_time = evening_times.get(email, None)
-            
-            if m_time and e_time:
-                final_status = 'Completed Shift'
-            elif m_time:
-                final_status = 'Checked In'
-            elif roster_status == 'OFF':
-                final_status = 'Week Off'
-            else:
-                final_status = 'Absent'
                 
             dashboard_data.append({
                 "date": date_str,
@@ -88,7 +80,8 @@ def main():
                 "vertical": row['Vertical'],
                 "morning_time": m_time if m_time else "-",
                 "evening_time": e_time if e_time else "-",
-                "final_status": final_status
+                "morning_roster": roster_status_morning,
+                "evening_roster": roster_status_evening
             })
             
     os.makedirs('public', exist_ok=True)
