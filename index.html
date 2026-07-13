@@ -101,7 +101,7 @@
 
         async function loadData() {
             try {
-                const response = await fetch('public/dashboard.json');
+               const response = await fetch('public/dashboard.json?nocache=' + new Date().getTime());
                 allData = await response.json();
                 
                 // 1. Setup Date Filter
