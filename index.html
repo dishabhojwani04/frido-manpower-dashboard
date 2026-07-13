@@ -16,13 +16,14 @@
         .filter-group label { font-size: 12px; font-weight: 600; color: #666; text-transform: uppercase; letter-spacing: 0.5px; }
         select { padding: 8px 12px; font-size: 14px; border-radius: 6px; border: 1px solid #ccd0d5; cursor: pointer; background-color: #f8f9fa; font-weight: 500; min-width: 150px; }
         
-        /* Stats Cards */
-        .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-bottom: 25px; }
+        /* Stats Cards - Now 5 columns to account for everyone */
+        .stats-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 15px; margin-bottom: 25px; }
         .stat-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; text-align: center; }
         .stat-title { font-size: 13px; color: #64748b; font-weight: 600; margin-bottom: 8px; }
         .stat-value { font-size: 24px; font-weight: 700; color: #0f172a; }
         .text-green { color: #16a34a; }
         .text-red { color: #dc2626; }
+        .text-gray { color: #64748b; }
 
         /* Table */
         table { width: 100%; border-collapse: collapse; }
@@ -60,6 +61,7 @@
             </div>
         </div>
 
+        <!-- Summary Statistics Cards -->
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-title">Morning In</div>
@@ -76,6 +78,10 @@
             <div class="stat-card">
                 <div class="stat-title">Evening Pending</div>
                 <div class="stat-value text-red" id="stat-e-pen">0</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-title">Week Off</div>
+                <div class="stat-value text-gray" id="stat-woff">0</div>
             </div>
         </div>
 
@@ -101,7 +107,8 @@
 
         async function loadData() {
             try {
-               const response = await fetch('public/dashboard.json?nocache=' + new Date().getTime());
+                // Fetch new data and prevent browser caching
+                const response = await fetch('public/dashboard.json?nocache=' + new Date().getTime());
                 allData = await response.json();
                 
                 // 1. Setup Date Filter
@@ -154,21 +161,23 @@
                 filteredData = filteredData.filter(emp => emp.vertical === currentVertical);
             }
 
-            // Variables for our summary math
-            let mIn = 0, mPen = 0, eOut = 0, ePen = 0;
+            // ALPHABETICAL SORTING ADDED HERE
+            filteredData.sort((a, b) => a.agent_name.localeCompare(b.agent_name));
+
+            let mIn = 0, mPen = 0, eOut = 0, ePen = 0, wOff = 0;
             
             const tbody = document.getElementById('dashboard-body');
             tbody.innerHTML = '';
             
             filteredData.forEach(emp => {
-                // --- Math for the Summary Cards ---
-                // We ignore people on "Week Off" so they don't look like they are missing work!
-                if (emp.final_status !== 'Week Off') {
+                // Math: Count Week Offs separately
+                if (emp.final_status === 'Week Off') {
+                    wOff++;
+                } else {
                     if (emp.morning_time !== "-") mIn++; else mPen++;
                     if (emp.evening_time !== "-") eOut++; else ePen++;
                 }
 
-                // --- Build the Table Rows ---
                 let badgeClass = 'absent';
                 if (emp.final_status === 'Checked In') badgeClass = 'checked-in';
                 if (emp.final_status === 'Completed Shift') badgeClass = 'completed';
@@ -188,11 +197,12 @@
                 `;
             });
 
-            // Update the Summary Cards on the screen
+            // Update DOM
             document.getElementById('stat-m-in').innerText = mIn;
             document.getElementById('stat-m-pen').innerText = mPen;
             document.getElementById('stat-e-out').innerText = eOut;
             document.getElementById('stat-e-pen').innerText = ePen;
+            document.getElementById('stat-woff').innerText = wOff;
         }
         
         loadData();
