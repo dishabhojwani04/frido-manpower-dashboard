@@ -4,21 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ISD Frido Manpower Hub</title>
-    <!-- Importing Chart.js for the graphs -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; margin: 0; color: #1c1e21; display: flex; height: 100vh; overflow: hidden; }
-        .sidebar { width: 260px; background: #ffffff; border-right: 1px solid #e2e8f0; display: flex; flex-direction: column; padding: 20px 0; box-shadow: 2px 0 8px rgba(0,0,0,0.05); z-index: 10; }
+        
+        /* UPDATED: Sidebar now has transition animations */
+        .sidebar { width: 260px; background: #ffffff; border-right: 1px solid #e2e8f0; display: flex; flex-direction: column; padding: 20px 0; box-shadow: 2px 0 8px rgba(0,0,0,0.05); z-index: 10; transition: all 0.3s ease; white-space: nowrap; overflow: hidden; }
+        
+        /* NEW: Collapsed state for sidebar */
+        .sidebar.collapsed { width: 0; padding: 20px 0; border-right: none; opacity: 0; pointer-events: none; }
+        
         .sidebar-header { padding: 0 20px 20px 20px; border-bottom: 1px solid #f0f2f5; margin-bottom: 15px; }
         .sidebar-header h2 { margin: 0; font-size: 20px; color: #0f172a; }
         .nav-menu { list-style: none; padding: 0; margin: 0; }
         .nav-item { padding: 12px 20px; margin: 4px 10px; border-radius: 8px; cursor: pointer; color: #64748b; font-weight: 600; transition: all 0.2s; }
         .nav-item:hover { background: #f8fafc; color: #0f172a; }
         .nav-item.active { background: #eff6ff; color: #1d4ed8; }
-        .main-wrapper { flex: 1; overflow-y: auto; padding: 30px; }
-        .container { max-width: 1100px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+        
+        .main-wrapper { flex: 1; overflow-y: auto; padding: 0 30px 30px 30px; display: flex; flex-direction: column; }
+        
+        /* NEW: Toggle Button Bar styles */
+        .top-bar { padding: 15px 0; display: flex; align-items: center; }
+        .menu-toggle { background: #fff; border: 1px solid #ccd0d5; border-radius: 6px; padding: 8px 12px; font-size: 16px; cursor: pointer; color: #444; font-weight: 600; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: background 0.2s; display: flex; align-items: center; gap: 8px;}
+        .menu-toggle:hover { background: #f8f9fa; }
+        
+        .container { max-width: 1100px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); width: 100%; box-sizing: border-box; }
         .tab-content { display: none; }
         .tab-content.active { display: block; }
+        
         .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 2px solid #f0f2f5; padding-bottom: 15px; }
         h1 { font-size: 24px; margin: 0 0 5px 0; color: #111; }
         .controls { display: flex; align-items: center; gap: 15px; }
@@ -44,15 +57,13 @@
         .badge.special { background: #fff3cd; color: #664d03; border: 1px solid #ffe69c; }
         .badge.lop { background: #fee2e2; color: #991b1b; border: 1px solid #fecaca; }
         .form-frame { width: 100%; height: 750px; border: none; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
-        
-        /* New Chart Container Styles */
         .chart-container-row { display: grid; grid-template-columns: 1fr 2fr; gap: 20px; margin-bottom: 30px; }
         .chart-box { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; height: 280px; position: relative;}
     </style>
 </head>
 <body>
 
-    <div class="sidebar">
+    <div class="sidebar" id="sidebar">
         <div class="sidebar-header">
             <h2>Frido Hub</h2>
         </div>
@@ -65,7 +76,12 @@
 
     <div class="main-wrapper">
         
-        <!-- TAB 1: DAILY -->
+        <div class="top-bar">
+            <button class="menu-toggle" onclick="toggleSidebar()">
+                ☰ Menu
+            </button>
+        </div>
+
         <div id="tab-daily" class="tab-content active">
             <div class="container">
                 <div class="header">
@@ -123,7 +139,6 @@
             </div>
         </div>
 
-        <!-- TAB 2: MONTHLY -->
         <div id="tab-monthly" class="tab-content">
             <div class="container">
                 <div class="header">
@@ -139,7 +154,6 @@
                     </div>
                 </div>
 
-                <!-- LIVE GRAPHS SECTION -->
                 <div class="chart-container-row">
                     <div class="chart-box">
                         <canvas id="monthlyPieChart"></canvas>
@@ -157,7 +171,6 @@
                             <th>Vertical</th>
                             <th>Shifts Completed</th>
                             <th>Half Days</th>
-                            <!-- Changed header strictly to Absences -->
                             <th>Absences</th> 
                         </tr>
                     </thead>
@@ -167,7 +180,6 @@
             </div>
         </div>
 
-        <!-- TAB 3: LOP -->
         <div id="tab-lop" class="tab-content">
             <div class="container">
                 <div class="header">
@@ -185,6 +197,12 @@
     </div>
 
     <script>
+        // NEW: Sidebar Toggle Logic
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('collapsed');
+        }
+
         // Store Graph Instances globally so we can refresh them
         let pieChartInstance = null;
         let barChartInstance = null;
@@ -344,7 +362,6 @@
             let monthData = allData.filter(emp => emp.date.startsWith(currentMonth));
             let employeeStats = {};
             
-            // Variables for generating the charts
             let totalFull = 0, totalHalf = 0, totalAbs = 0;
             let verticalStats = {};
             
@@ -373,7 +390,6 @@
             tbody.innerHTML = '';
             
             statsArray.forEach(emp => {
-                // Populate table
                 let desigFormat = emp.designation === 'Team Lead' ? `<strong style="color: #0284c7;">${emp.designation}</strong>` : `<span style="color: #64748b;">${emp.designation}</span>`;
                 tbody.innerHTML += `
                     <tr>
@@ -382,15 +398,13 @@
                         <td>${emp.vertical}</td>
                         <td><span class="badge completed">${emp.fullShifts} Shifts</span></td>
                         <td><span class="badge checked-in">${emp.halfDays} Half Days</span></td>
-                        <td><span class="badge absent">${emp.absences} Absences</span></td> <!-- Updated Label -->
+                        <td><span class="badge absent">${emp.absences} Absences</span></td> 
                     </tr>`;
                 
-                // Add to overall chart totals
                 totalFull += emp.fullShifts;
                 totalHalf += emp.halfDays;
                 totalAbs += emp.absences;
 
-                // Add to vertical chart totals
                 let v = emp.vertical || "Unassigned";
                 if(!verticalStats[v]) verticalStats[v] = { full: 0, half: 0, abs: 0 };
                 verticalStats[v].full += emp.fullShifts;
@@ -402,11 +416,9 @@
         }
 
         function renderCharts(full, half, abs, vStats) {
-            // Destroy existing charts to prevent them from overlapping when you change the month filter
             if (pieChartInstance) pieChartInstance.destroy();
             if (barChartInstance) barChartInstance.destroy();
 
-            // 1. Render Pie Chart (Overall Split)
             const pieCtx = document.getElementById('monthlyPieChart').getContext('2d');
             pieChartInstance = new Chart(pieCtx, {
                 type: 'doughnut',
@@ -430,7 +442,6 @@
                 }
             });
 
-            // 2. Render Stacked Bar Chart (By Vertical)
             const barCtx = document.getElementById('verticalBarChart').getContext('2d');
             const labels = Object.keys(vStats);
             const fullData = labels.map(l => vStats[l].full);
