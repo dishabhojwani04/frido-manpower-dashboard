@@ -1,6 +1,6 @@
 import os
 import json
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import pandas as pd
 import gspread
 from google.oauth2.service_account import Credentials
@@ -14,23 +14,18 @@ def main():
     sheet_id = os.environ["SHEET_ID"]
     spreadsheet = gc.open_by_key(sheet_id)
     
-    # 1. Fetch Core Sheets
     roster_df = pd.DataFrame(spreadsheet.worksheet("Roster").get_all_records())
     morning_df = pd.DataFrame(spreadsheet.worksheet("Morning").get_all_records())
     evening_df = pd.DataFrame(spreadsheet.worksheet("Evening").get_all_records())
     
-    # 2. Fetch LOP Sheet (with Failsafe)
     try:
         lop_df = pd.DataFrame(spreadsheet.worksheet("LOP").get_all_records())
         lop_df['Agent Name'] = lop_df['Agent Name'].astype(str).str.strip().str.lower()
         if 'Date of LOP' in lop_df.columns:
-            # Standardize date format to match our system
             lop_df['Date of LOP'] = pd.to_datetime(lop_df['Date of LOP'], errors='coerce').dt.strftime('%Y-%m-%d')
     except:
-        # If the LOP tab doesn't exist yet, create a dummy one so the bot doesn't crash!
         lop_df = pd.DataFrame(columns=['Agent Name', 'Date of LOP'])
     
-    # Clean Core Data
     roster_df['Official Email'] = roster_df['Official Email'].astype(str).str.strip().str.lower()
     morning_df['Employee Official Mail id'] = morning_df['Employee Official Mail id'].astype(str).str.strip().str.lower()
     evening_df['Official Mail Id'] = evening_df['Official Mail Id'].astype(str).str.strip().str.lower()
@@ -47,15 +42,19 @@ def main():
     morning_df['Time'] = morning_df['Timestamp'].dt.strftime('%I:%M %p') 
     evening_df['Time'] = evening_df['Timestamp'].dt.strftime('%I:%M %p')
     
+    # 1. Grab all dates normally (NO MORE YESTERDAY SHIFT)
     morning_dates = set(morning_df['Date'].unique())
-    evening_dates_shifted = set()
+    evening_dates = set(evening_df['Date'].unique())
+    all_dates_set = morning_dates.union(evening_dates)
     
-    for ed in evening_df['Date'].unique():
-        ed_obj = datetime.strptime(ed, '%Y-%m-%d')
-        shifted_obj = ed_obj + timedelta(days=1)
-        evening_dates_shifted.add(shifted_obj.strftime('%Y-%m-%d'))
-        
-    all_dates = sorted(list(morning_dates.union(evening_dates_shifted)), reverse=True)
+    # 2. FORCE "TODAY" IN IST TIMEZONE
+    ist_offset = timedelta(hours=5, minutes=30)
+    ist_tz = timezone(ist_offset)
+    today_str = datetime.now(ist_tz).strftime('%Y-%m-%d')
+    all_dates_set.add(today_str)
+    
+    # Sort descending so Today is always at the very top [0]
+    all_dates = sorted(list(all_dates_set), reverse=True)
     
     team_leads = ["aayush goyal", "rishab de", "ankur singh", "dhanendra kumar"]
     off_keywords = ["OFF", "WO", "WEEK OFF", "WEEKOFF"]
@@ -66,12 +65,9 @@ def main():
         date_obj = datetime.strptime(date_str, '%Y-%m-%d')
         day_name = date_obj.strftime('%a') 
         
-        prev_date_obj = date_obj - timedelta(days=1)
-        prev_date_str = prev_date_obj.strftime('%Y-%m-%d')
-        prev_day_name = prev_date_obj.strftime('%a') 
-        
+        # Look for Morning and Evening on the EXACT same day
         day_morning = morning_df[morning_df['Date'] == date_str]
-        day_evening = evening_df[evening_df['Date'] == prev_date_str]
+        day_evening = evening_df[evening_df['Date'] == date_str]
         
         morning_times = dict(zip(day_morning['Employee Official Mail id'], day_morning['Time']))
         evening_times = dict(zip(day_evening['Official Mail Id'], day_evening['Time']))
@@ -86,17 +82,12 @@ def main():
             
             designation = "Team Lead" if agent_name_lower in team_leads else "Executive"
                 
-            raw_morning_status = str(row.get(day_name, '')).strip().upper()
-            raw_evening_status = str(row.get(prev_day_name, '')).strip().upper()
-            
-            roster_status_morning = 'OFF' if raw_morning_status in off_keywords else 'DS'
-            roster_status_evening = 'OFF' if raw_evening_status in off_keywords else 'DS'
+            raw_status = str(row.get(day_name, '')).strip().upper()
+            roster_status = 'OFF' if raw_status in off_keywords else 'DS'
             
             m_time = morning_times.get(email, None)
             e_time = evening_times.get(email, None)
             
-            # *** NEW: LOP CROSS-REFERENCE ***
-            # Checks if the current Agent has an LOP marked for this specific Date
             is_lop = False
             if not lop_df.empty and 'Date of LOP' in lop_df.columns:
                 match = lop_df[(lop_df['Agent Name'] == agent_name_lower) & (lop_df['Date of LOP'] == date_str)]
@@ -111,8 +102,9 @@ def main():
                 "vertical": row['Vertical'],
                 "morning_time": m_time if m_time else "-",
                 "evening_time": e_time if e_time else "-",
-                "morning_roster": roster_status_morning,
-                "evening_roster": roster_status_evening,
+                # Morning and Evening now share the exact same roster status
+                "morning_roster": roster_status,
+                "evening_roster": roster_status,
                 "is_lop": is_lop 
             })
             
