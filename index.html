@@ -5,8 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ISD Frido Manpower Hub</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; margin: 0; padding: 30px; color: #1c1e21; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; margin: 0; color: #1c1e21; display: flex; height: 100vh; overflow: hidden; }
+        
+        .sidebar { width: 260px; background: #ffffff; border-right: 1px solid #e2e8f0; display: flex; flex-direction: column; padding: 20px 0; box-shadow: 2px 0 8px rgba(0,0,0,0.05); z-index: 10; }
+        .sidebar-header { padding: 0 20px 20px 20px; border-bottom: 1px solid #f0f2f5; margin-bottom: 15px; }
+        .sidebar-header h2 { margin: 0; font-size: 20px; color: #0f172a; }
+        .nav-menu { list-style: none; padding: 0; margin: 0; }
+        .nav-item { padding: 12px 20px; margin: 4px 10px; border-radius: 8px; cursor: pointer; color: #64748b; font-weight: 600; transition: all 0.2s; }
+        .nav-item:hover { background: #f8fafc; color: #0f172a; }
+        .nav-item.active { background: #eff6ff; color: #1d4ed8; }
+        
+        .main-wrapper { flex: 1; overflow-y: auto; padding: 30px; }
         .container { max-width: 1100px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        
         .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 2px solid #f0f2f5; padding-bottom: 15px; }
         h1 { font-size: 24px; margin: 0 0 5px 0; color: #111; }
         .controls { display: flex; align-items: center; gap: 15px; }
@@ -33,123 +46,193 @@
         .badge.week-off { background: #e2e3e5; color: #41464c; }
         .badge.absent { background: #f8d7da; color: #842029; }
         .badge.special { background: #fff3cd; color: #664d03; border: 1px solid #ffe69c; }
+        .badge.lop { background: #fee2e2; color: #991b1b; border: 1px solid #fecaca; } /* Severe Red for LOP */
+        
+        .form-frame { width: 100%; height: 750px; border: none; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <div>
-                <h1>ISD Frido Manpower</h1>
-                <small style="color: #666;" id="last-updated">Fetching live data...</small>
-            </div>
-            <div class="controls">
-                <div class="filter-group">
-                    <label for="date-filter">Date</label>
-                    <select id="date-filter"></select>
+
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h2>Frido Hub</h2>
+        </div>
+        <ul class="nav-menu">
+            <li class="nav-item active" onclick="switchTab('tab-daily', this)">Daily Attendance</li>
+            <li class="nav-item" onclick="switchTab('tab-monthly', this)">Monthly Attendance</li>
+            <li class="nav-item" onclick="switchTab('tab-lop', this)">Mark LOP</li>
+        </ul>
+    </div>
+
+    <div class="main-wrapper">
+        
+        <div id="tab-daily" class="tab-content active">
+            <div class="container">
+                <div class="header">
+                    <div>
+                        <h1>Daily Attendance</h1>
+                        <small style="color: #666;" id="last-updated">Fetching live data...</small>
+                    </div>
+                    <div class="controls">
+                        <div class="filter-group">
+                            <label for="date-filter">Date</label>
+                            <select id="date-filter"></select>
+                        </div>
+                        <div class="filter-group">
+                            <label for="vertical-filter">Vertical</label>
+                            <select id="vertical-filter">
+                                <option value="All">All Verticals</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
-                <div class="filter-group">
-                    <label for="vertical-filter">Vertical</label>
-                    <select id="vertical-filter">
-                        <option value="All">All Verticals</option>
-                    </select>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-title">Morning In</div>
+                        <div class="stat-value text-green" id="stat-m-in">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-title">Morning Pending</div>
+                        <div class="stat-value text-red" id="stat-m-pen">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-title">Evening Out</div>
+                        <div class="stat-value text-green" id="stat-e-out">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-title">Evening Pending</div>
+                        <div class="stat-value text-red" id="stat-e-pen">0</div>
+                    </div>
                 </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Agent Name</th>
+                            <th>Designation</th>
+                            <th>Vertical</th>
+                            <th>Morning In</th>
+                            <th>Evening Out</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="dashboard-body">
+                    </tbody>
+                </table>
             </div>
         </div>
 
-        <div class="stats-grid">
-            <div class="stat-card">
-                <div class="stat-title">Morning In</div>
-                <div class="stat-value text-green" id="stat-m-in">0</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-title">Morning Pending</div>
-                <div class="stat-value text-red" id="stat-m-pen">0</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-title">Evening Out</div>
-                <div class="stat-value text-green" id="stat-e-out">0</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-title">Evening Pending</div>
-                <div class="stat-value text-red" id="stat-e-pen">0</div>
+        <div id="tab-monthly" class="tab-content">
+            <div class="container">
+                <div class="header">
+                    <div>
+                        <h1>Monthly Attendance</h1>
+                        <small style="color: #666;">Aggregate Data Summary</small>
+                    </div>
+                    <div class="controls">
+                        <div class="filter-group">
+                            <label for="month-filter">Select Month</label>
+                            <select id="month-filter"></select>
+                        </div>
+                    </div>
+                </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Agent Name</th>
+                            <th>Designation</th>
+                            <th>Vertical</th>
+                            <th>Shifts Completed</th>
+                            <th>Half Days</th>
+                            <th>Absences & LOPs</th>
+                        </tr>
+                    </thead>
+                    <tbody id="monthly-body">
+                    </tbody>
+                </table>
             </div>
         </div>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Agent Name</th>
-                    <th>Designation</th>
-                    <th>Vertical</th>
-                    <th>Morning In</th>
-                    <th>Evening Out</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-            <tbody id="dashboard-body">
-            </tbody>
-        </table>
+        <div id="tab-lop" class="tab-content">
+            <div class="container">
+                <div class="header">
+                    <div>
+                        <h1>Mark Loss of Pay (LOP)</h1>
+                        <small style="color: #666;">Secure Form Submission for Team Leads</small>
+                    </div>
+                </div>
+                
+                <p style="text-align: center; color: #64748b; margin-top: 50px;">
+                    <em>Please embed your Google Form link here in the index.html file!</em>
+                </p>
+                </div>
+        </div>
+
     </div>
 
     <script>
+        function switchTab(tabId, element) {
+            document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
+            document.querySelectorAll('.nav-item').forEach(item => item.classList.remove('active'));
+            document.getElementById(tabId).classList.add('active');
+            element.classList.add('active');
+        }
+
         let allData = [];
         let currentDate = "";
         let currentVertical = "All";
+        let currentMonth = "";
 
         async function loadData() {
             try {
                 const response = await fetch('public/dashboard.json?nocache=' + new Date().getTime());
                 allData = await response.json();
-                
-                const dates = [...new Set(allData.map(item => item.date))];
-                const dateSelect = document.getElementById('date-filter');
-                dateSelect.innerHTML = '';
-                dates.forEach(date => {
-                    const option = document.createElement('option');
-                    option.value = date;
-                    option.text = new Date(date).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
-                    dateSelect.appendChild(option);
-                });
-
-                const verticals = [...new Set(allData.map(item => item.vertical).filter(v => v !== ""))].sort();
-                const verticalSelect = document.getElementById('vertical-filter');
-                verticals.forEach(v => {
-                    const option = document.createElement('option');
-                    option.value = v;
-                    option.text = v;
-                    verticalSelect.appendChild(option);
-                });
-
-                dateSelect.addEventListener('change', (e) => {
-                    currentDate = e.target.value;
-                    updateDashboard();
-                });
-                verticalSelect.addEventListener('change', (e) => {
-                    currentVertical = e.target.value;
-                    updateDashboard();
-                });
-
-                if(dates.length > 0) {
-                    currentDate = dates[0];
-                    updateDashboard();
-                }
-                
+                setupDailyFilters();
+                setupMonthlyFilters();
                 document.getElementById('last-updated').innerText = `Data synced at ${new Date().toLocaleTimeString()}`;
             } catch (error) {
                 document.getElementById('last-updated').innerText = "Waiting for the bot to run...";
             }
         }
 
-        function updateDashboard() {
-            let filteredData = allData.filter(emp => emp.date === currentDate);
-            if (currentVertical !== "All") {
-                filteredData = filteredData.filter(emp => emp.vertical === currentVertical);
-            }
+        function setupDailyFilters() {
+            const dates = [...new Set(allData.map(item => item.date))];
+            const dateSelect = document.getElementById('date-filter');
+            dateSelect.innerHTML = '';
+            dates.forEach(date => {
+                const option = document.createElement('option');
+                option.value = date;
+                option.text = new Date(date).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
+                dateSelect.appendChild(option);
+            });
 
+            const verticals = [...new Set(allData.map(item => item.vertical).filter(v => v !== ""))].sort();
+            const verticalSelect = document.getElementById('vertical-filter');
+            verticalSelect.innerHTML = '<option value="All">All Verticals</option>';
+            verticals.forEach(v => {
+                const option = document.createElement('option');
+                option.value = v;
+                option.text = v;
+                verticalSelect.appendChild(option);
+            });
+
+            dateSelect.addEventListener('change', (e) => { currentDate = e.target.value; updateDailyDashboard(); });
+            verticalSelect.addEventListener('change', (e) => { currentVertical = e.target.value; updateDailyDashboard(); });
+
+            if(dates.length > 0) {
+                currentDate = dates[0];
+                updateDailyDashboard();
+            }
+        }
+
+        function updateDailyDashboard() {
+            let filteredData = allData.filter(emp => emp.date === currentDate);
+            if (currentVertical !== "All") filteredData = filteredData.filter(emp => emp.vertical === currentVertical);
             filteredData.sort((a, b) => a.agent_name.localeCompare(b.agent_name));
 
             let mIn = 0, mPen = 0, eOut = 0, ePen = 0;
-            
             const tbody = document.getElementById('dashboard-body');
             tbody.innerHTML = '';
             
@@ -159,71 +242,110 @@
                 let isMorningOff = emp.morning_roster === 'OFF';
                 let isEveningOff = emp.evening_roster === 'OFF';
 
-                if (hasMorning) { mIn++; } else if (!isMorningOff) { mPen++; }
-                if (hasEvening) { eOut++; } else if (!isEveningOff) { ePen++; }
-
-                let badgeClass = 'absent';
-                let displayStatus = 'Absent';
-
-                if (hasMorning && hasEvening) {
-                    if (isMorningOff || isEveningOff) {
-                        displayStatus = 'Worked on Week Off';
-                        badgeClass = 'special'; 
-                    } else {
-                        displayStatus = 'Completed Shift';
-                        badgeClass = 'completed';
-                    }
-                } else if (hasMorning) {
-                    if (isMorningOff) {
-                        displayStatus = 'Checked In (Week Off)';
-                        badgeClass = 'special';
-                    } else {
-                        displayStatus = 'Checked In';
-                        badgeClass = 'checked-in';
-                    }
-                } else if (hasEvening) {
-                    if (isEveningOff) {
-                        displayStatus = 'Evening Only (Week Off)';
-                        badgeClass = 'special';
-                    } else {
-                        displayStatus = 'Evening Only';
-                        badgeClass = 'checked-in';
-                    }
-                } else if (isMorningOff && isEveningOff) {
-                    displayStatus = 'Week Off';
-                    badgeClass = 'week-off';
-                } else if (isMorningOff) {
-                    displayStatus = 'Morning Off';
-                    badgeClass = 'week-off';
-                } else if (isEveningOff) {
-                    displayStatus = 'Evening Off';
-                    badgeClass = 'week-off';
+                // Skip counting them in standard Pending metrics if they have an LOP
+                if (!emp.is_lop) {
+                    if (hasMorning) { mIn++; } else if (!isMorningOff) { mPen++; }
+                    if (hasEvening) { eOut++; } else if (!isEveningOff) { ePen++; }
                 }
 
-                // Make Team Leads blue and bold, Executives gray
-                let desigFormat = emp.designation === 'Team Lead' 
-                    ? `<strong style="color: #0284c7;">${emp.designation}</strong>` 
-                    : `<span style="color: #64748b;">${emp.designation}</span>`;
+                let badgeClass = 'absent'; let displayStatus = 'Absent';
 
+                // LOP takes maximum priority
+                if (emp.is_lop) {
+                    displayStatus = 'Loss of Pay (LOP)'; 
+                    badgeClass = 'lop';
+                } else if (hasMorning && hasEvening) {
+                    if (isMorningOff || isEveningOff) { displayStatus = 'Worked on Week Off'; badgeClass = 'special'; } 
+                    else { displayStatus = 'Completed Shift'; badgeClass = 'completed'; }
+                } else if (hasMorning) {
+                    if (isMorningOff) { displayStatus = 'Checked In (Week Off)'; badgeClass = 'special'; } 
+                    else { displayStatus = 'Checked In'; badgeClass = 'checked-in'; }
+                } else if (hasEvening) {
+                    if (isEveningOff) { displayStatus = 'Evening Only (Week Off)'; badgeClass = 'special'; } 
+                    else { displayStatus = 'Evening Only'; badgeClass = 'checked-in'; }
+                } else if (isMorningOff && isEveningOff) { displayStatus = 'Week Off'; badgeClass = 'week-off'; } 
+                else if (isMorningOff) { displayStatus = 'Morning Off'; badgeClass = 'week-off'; } 
+                else if (isEveningOff) { displayStatus = 'Evening Off'; badgeClass = 'week-off'; }
+
+                let desigFormat = emp.designation === 'Team Lead' ? `<strong style="color: #0284c7;">${emp.designation}</strong>` : `<span style="color: #64748b;">${emp.designation}</span>`;
                 const mTime = hasMorning ? `<span class="time-cell">${emp.morning_time}</span>` : `<span style="color:#aaa">-</span>`;
                 const eTime = hasEvening ? `<span class="time-cell">${emp.evening_time}</span>` : `<span style="color:#aaa">-</span>`;
 
                 tbody.innerHTML += `
                     <tr>
                         <td><strong>${emp.agent_name}</strong><br><small style="color: #888;">${emp.email}</small></td>
-                        <td>${desigFormat}</td>
-                        <td>${emp.vertical}</td>
-                        <td>${mTime}</td>
-                        <td>${eTime}</td>
+                        <td>${desigFormat}</td><td>${emp.vertical}</td><td>${mTime}</td><td>${eTime}</td>
                         <td><span class="badge ${badgeClass}">${displayStatus}</span></td>
-                    </tr>
-                `;
+                    </tr>`;
             });
 
             document.getElementById('stat-m-in').innerText = mIn;
             document.getElementById('stat-m-pen').innerText = mPen;
             document.getElementById('stat-e-out').innerText = eOut;
             document.getElementById('stat-e-pen').innerText = ePen;
+        }
+
+        function setupMonthlyFilters() {
+            const months = [...new Set(allData.map(item => item.date.substring(0, 7)))].sort().reverse();
+            const monthSelect = document.getElementById('month-filter');
+            monthSelect.innerHTML = '';
+            
+            months.forEach(ym => {
+                const dateObj = new Date(ym + "-01");
+                const option = document.createElement('option');
+                option.value = ym;
+                option.text = dateObj.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+                monthSelect.appendChild(option);
+            });
+
+            monthSelect.addEventListener('change', (e) => { currentMonth = e.target.value; updateMonthlyDashboard(); });
+            if(months.length > 0) {
+                currentMonth = months[0];
+                updateMonthlyDashboard();
+            }
+        }
+
+        function updateMonthlyDashboard() {
+            let monthData = allData.filter(emp => emp.date.startsWith(currentMonth));
+            let employeeStats = {};
+            
+            monthData.forEach(entry => {
+                if (!employeeStats[entry.email]) {
+                    employeeStats[entry.email] = { name: entry.agent_name, designation: entry.designation, vertical: entry.vertical, fullShifts: 0, halfDays: 0, absences: 0 };
+                }
+                
+                let hasMorning = entry.morning_time !== "-";
+                let hasEvening = entry.evening_time !== "-";
+                let isOff = (entry.morning_roster === 'OFF' && entry.evening_roster === 'OFF');
+
+                // LOP Override for Monthly Aggregation
+                if (entry.is_lop) {
+                    employeeStats[entry.email].absences++;
+                } else if (hasMorning && hasEvening) {
+                    employeeStats[entry.email].fullShifts++;
+                } else if ((hasMorning && !hasEvening) || (!hasMorning && hasEvening)) {
+                    if (!isOff) employeeStats[entry.email].halfDays++;
+                } else if (!hasMorning && !hasEvening && !isOff) {
+                    employeeStats[entry.email].absences++;
+                }
+            });
+
+            let statsArray = Object.values(employeeStats).sort((a, b) => a.name.localeCompare(b.name));
+            const tbody = document.getElementById('monthly-body');
+            tbody.innerHTML = '';
+            
+            statsArray.forEach(emp => {
+                let desigFormat = emp.designation === 'Team Lead' ? `<strong style="color: #0284c7;">${emp.designation}</strong>` : `<span style="color: #64748b;">${emp.designation}</span>`;
+                tbody.innerHTML += `
+                    <tr>
+                        <td><strong>${emp.name}</strong></td>
+                        <td>${desigFormat}</td>
+                        <td>${emp.vertical}</td>
+                        <td><span class="badge completed">${emp.fullShifts} Shifts</span></td>
+                        <td><span class="badge checked-in">${emp.halfDays} Half Days</span></td>
+                        <td><span class="badge absent">${emp.absences} Deductions</span></td>
+                    </tr>`;
+            });
         }
         
         loadData();
