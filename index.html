@@ -59,6 +59,7 @@
 
     <div class="main-wrapper">
         
+        <!-- TAB 1: DAILY -->
         <div id="tab-daily" class="tab-content active">
             <div class="container">
                 <div class="header">
@@ -116,6 +117,7 @@
             </div>
         </div>
 
+        <!-- TAB 2: MONTHLY -->
         <div id="tab-monthly" class="tab-content">
             <div class="container">
                 <div class="header">
@@ -148,6 +150,7 @@
             </div>
         </div>
 
+        <!-- TAB 3: LOP -->
         <div id="tab-lop" class="tab-content">
             <div class="container">
                 <div class="header">
@@ -194,22 +197,26 @@
             const dateSelect = document.getElementById('date-filter');
             dateSelect.innerHTML = '';
             
-            // Format today's date slightly differently so users know it's "Today"
-            const todayObj = new Date();
-            const istOptions = { timeZone: 'Asia/Kolkata', weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' };
-            const todayStrFormatted = todayObj.toLocaleDateString('en-US', istOptions);
+            // 1. Calculate Exact "Today" in IST
+            const now = new Date();
+            const istString = now.toLocaleString("en-US", {timeZone: "Asia/Kolkata"});
+            const istDateObj = new Date(istString);
+            const yyyy = istDateObj.getFullYear();
+            const mm = String(istDateObj.getMonth() + 1).padStart(2, '0');
+            const dd = String(istDateObj.getDate()).padStart(2, '0');
+            const todayTarget = `${yyyy}-${mm}-${dd}`; // Formatted exactly like our JSON data
 
             dates.forEach(date => {
                 const option = document.createElement('option');
                 option.value = date;
                 
                 const optionDateObj = new Date(date);
-                // Adjust for timezone differences in the browser display
                 const userTimezoneOffset = optionDateObj.getTimezoneOffset() * 60000;
                 const adjustedDate = new Date(optionDateObj.getTime() + userTimezoneOffset);
                 const displayStr = adjustedDate.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
                 
-                if (displayStr === todayStrFormatted) {
+                // Explicitly label the exact current day
+                if (date === todayTarget) {
                     option.text = `🟢 Today (${displayStr})`;
                 } else {
                     option.text = displayStr;
@@ -231,11 +238,16 @@
             dateSelect.addEventListener('change', (e) => { currentDate = e.target.value; updateDailyDashboard(); });
             verticalSelect.addEventListener('change', (e) => { currentVertical = e.target.value; updateDailyDashboard(); });
 
-            // Automatically defaults to [0] which is forced to be Today by Python!
-            if(dates.length > 0) {
+            // 2. EXPLICIT OVERRIDE: Force dropdown to "Today" immediately upon load
+            if (dates.includes(todayTarget)) {
+                currentDate = todayTarget;
+                dateSelect.value = todayTarget;
+            } else if (dates.length > 0) {
                 currentDate = dates[0];
-                updateDailyDashboard();
+                dateSelect.value = dates[0];
             }
+            
+            updateDailyDashboard();
         }
 
         function updateDailyDashboard() {
@@ -250,7 +262,7 @@
             filteredData.forEach(emp => {
                 let hasMorning = emp.morning_time !== "-";
                 let hasEvening = emp.evening_time !== "-";
-                let isOff = emp.morning_roster === 'OFF'; // Both are the same now
+                let isOff = emp.morning_roster === 'OFF'; 
 
                 if (!emp.is_lop) {
                     if (hasMorning) { mIn++; } else if (!isOff) { mPen++; }
