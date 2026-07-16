@@ -1,665 +1,5 @@
 [
     {
-        "date": "2026-07-17",
-        "agent_name": "Arati Anjaney Hande",
-        "email": "executive4@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Shahrukh Khan",
-        "email": "executive6@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
-        "evening_time": "10:14 AM",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Akanksha Thakre",
-        "email": "akanksha.t@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Vishal Singh",
-        "email": "vishal.s@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "OFF",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Janhavi Patil",
-        "email": "janhavi.patil@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Aditya Tiwari",
-        "email": "aditya.t@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "OFF",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Ayushi Rathore",
-        "email": "ayushi.r@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Akanksha Sharma",
-        "email": "akanksha.s@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "OFF",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Kashish Jaiswal",
-        "email": "kashish.j@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Fauziya Praveen",
-        "email": "executive18@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Abdul Sohail",
-        "email": "abdul.sohail@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Shop On Whatsapp High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Apurva Bagde",
-        "email": "apurva.b@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Shop On Whatsapp High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Suyash Avaskar",
-        "email": "jf2f9pbttz@privaterelay.appleid.com",
-        "designation": "Executive",
-        "vertical": "Shop On Whatsapp High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Isha Gite",
-        "email": "isha.g@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Shop On Whatsapp High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Vaishnavi Bhaduria",
-        "email": "vaishnavi.b@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Shop On Whatsapp High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Parth Ziprae",
-        "email": "parth.z@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Shop On Whatsapp High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Shamal Yeole",
-        "email": "shamal.y@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned Low Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Abhijeet Harde",
-        "email": "abhijeet.h@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned Low Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Gaurav Seolkar",
-        "email": "gaurav.s@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned Low Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Harshal Mutthe",
-        "email": "harshal.m@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned Low Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Pranali Jadhao",
-        "email": "pranali.j@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned Low Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "OFF",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Yashasvi Jain",
-        "email": "yashasvi.j@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned Low Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "OFF",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Ishwar Walke",
-        "email": "ishwar.w@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned Low Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Ankita Ade",
-        "email": "ankita.a@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned Very Low Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Bhavin Shrimankar",
-        "email": "bhavin.s@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned Very Low Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "OFF",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Sanskruti Ranaware",
-        "email": "sanskruti.ranaware@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned Low Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Palak Tiwari",
-        "email": "palak.t@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Immediate Retention Calling",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Priyanshi Pranami",
-        "email": "priyanshi.p@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Immediate Retention Calling",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Shyamli Parmar",
-        "email": "shyamli.p@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Immediate Retention Calling",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Prince Singh",
-        "email": "prince.s@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Immediate Retention Calling",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "OFF",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Sandeep Barman",
-        "email": "sandeep.b@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Immediate Retention Calling",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "OFF",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Suraj Shinde",
-        "email": "suraj.shinde@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Immediate Retention Calling",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Prathamesh Rathod",
-        "email": "prathamesh.r@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Immediate Retention Calling",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "OFF",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Vimarsh Raina",
-        "email": "vcagent2@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Shop On Video Call",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Shreyashi Jagtap",
-        "email": "shreyasi.j@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Shop On Call",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Omkar Mali",
-        "email": "omkar.m@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Incoming Call",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Pranav Shah",
-        "email": "pranav.s@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Incoming Call",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Anjali Pal",
-        "email": "anjali.pal@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Incoming Call",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Oshina Mittal",
-        "email": "oshina.m@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Coupon Code Calling",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "OFF",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Kopal Tamrakar",
-        "email": "kopal.t@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Coupon Code Calling",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "OFF",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Shrushri Landge",
-        "email": "shrushti.l@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Coupon Code Calling",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Sakshi Mehra",
-        "email": "sakshi.m@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Coupon Code Calling",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Vayu Jain",
-        "email": "vayu.j@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Coupon Code Calling",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Vaishnavi Chougule",
-        "email": "vaishnavi.c@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Shop On Whatsapp Low Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Bushra Sheikh",
-        "email": "bushra.s@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Shop On Whatsapp Low Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Akshat Sharma",
-        "email": "akshat.sharma@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned Very Low Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Subhalaxmi Satpathy",
-        "email": "subhalaxmi.s@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned Very Low Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Dona Sharma",
-        "email": "doona.s@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Meta Leadgen",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Mannaraj Agrawal",
-        "email": "mannraj.a@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Meta Leadgen",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Shilpi",
-        "email": "shilpi@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Meta Leadgen",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Khushboo Thawkar",
-        "email": "khushboo.t@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned Very Low Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Aayush Goyal",
-        "email": "aayush.g@myfrido.com",
-        "designation": "Team Lead",
-        "vertical": "Immediate Retention Calling",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Ankur Singh",
-        "email": "ankur.s@myfrido.com",
-        "designation": "Team Lead",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Rishab De",
-        "email": "rishab.d@myfrido.com",
-        "designation": "Team Lead",
-        "vertical": "Abandoned Low Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Dhanendra Kumar",
-        "email": "dhanendra.k@myfrido.com",
-        "designation": "Team Lead",
-        "vertical": "Shop On Whatsapp High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
         "date": "2026-07-16",
         "agent_name": "Arati Anjaney Hande",
         "email": "executive4@myfrido.com",
@@ -678,7 +18,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:14 AM",
-        "evening_time": "-",
+        "evening_time": "10:14 AM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -692,7 +32,7 @@
         "morning_time": "11:13 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -702,9 +42,9 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "-",
-        "evening_time": "06:41 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -762,7 +102,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:44 AM",
-        "evening_time": "07:03 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -786,7 +126,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "10:39 AM",
-        "evening_time": "08:36 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -834,7 +174,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "10:24 AM",
-        "evening_time": "06:41 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -870,9 +210,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:13 AM",
-        "evening_time": "06:36 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -920,7 +260,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -930,7 +270,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:32 AM",
-        "evening_time": "06:31 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -954,7 +294,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "10:11 AM",
-        "evening_time": "06:45 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -966,7 +306,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:43 AM",
-        "evening_time": "06:38 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -978,7 +318,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "11:08 AM",
-        "evening_time": "06:31 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -990,7 +330,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "11:02 AM",
-        "evening_time": "06:39 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1002,7 +342,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:35 AM",
-        "evening_time": "08:29 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1014,7 +354,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:08 AM",
-        "evening_time": "08:08 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1026,9 +366,9 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "-",
-        "evening_time": "07:16 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -1040,7 +380,7 @@
         "morning_time": "10:25 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -1050,9 +390,9 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "-",
-        "evening_time": "06:36 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -1074,7 +414,7 @@
         "designation": "Executive",
         "vertical": "Shop On Call",
         "morning_time": "10:46 AM",
-        "evening_time": "06:46 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1124,7 +464,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -1134,7 +474,7 @@
         "designation": "Executive",
         "vertical": "Coupon Code Calling",
         "morning_time": "10:54 AM",
-        "evening_time": "07:41 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1206,7 +546,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "10:17 AM",
-        "evening_time": "06:40 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1218,7 +558,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "11:04 AM",
-        "evening_time": "08:43 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1338,7 +678,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:20 AM",
-        "evening_time": "10:15 AM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1352,7 +692,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -1362,7 +702,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "11:11 AM",
-        "evening_time": "06:33 PM",
+        "evening_time": "06:41 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1374,7 +714,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:42 AM",
-        "evening_time": "06:34 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1400,7 +740,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -1410,7 +750,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:55 AM",
-        "evening_time": "06:59 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1422,7 +762,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:16 AM",
-        "evening_time": "06:35 PM",
+        "evening_time": "07:03 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1446,7 +786,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "11:07 AM",
-        "evening_time": "09:37 PM",
+        "evening_time": "08:36 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1494,7 +834,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "10:14 AM",
-        "evening_time": "06:49 PM",
+        "evening_time": "06:41 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1530,9 +870,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:43 AM",
-        "evening_time": "06:37 PM",
+        "evening_time": "06:36 PM",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -1554,7 +894,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:30 AM",
-        "evening_time": "06:35 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1602,7 +942,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "10:42 AM",
-        "evening_time": "06:38 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1614,7 +954,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "10:14 AM",
-        "evening_time": "06:32 PM",
+        "evening_time": "06:45 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1626,9 +966,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:17 AM",
-        "evening_time": "06:41 PM",
+        "evening_time": "06:38 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -1638,7 +978,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "11:20 AM",
-        "evening_time": "06:36 PM",
+        "evening_time": "06:31 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1650,7 +990,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "11:00 AM",
-        "evening_time": "06:36 PM",
+        "evening_time": "06:39 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1662,7 +1002,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "11:20 AM",
-        "evening_time": "06:40 PM",
+        "evening_time": "08:29 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1674,7 +1014,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:42 AM",
-        "evening_time": "07:42 PM",
+        "evening_time": "08:08 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1686,7 +1026,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:44 AM",
-        "evening_time": "08:34 PM",
+        "evening_time": "07:16 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1698,9 +1038,9 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "-",
-        "evening_time": "08:31 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -1710,7 +1050,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:35 AM",
-        "evening_time": "06:35 PM",
+        "evening_time": "06:36 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1734,7 +1074,7 @@
         "designation": "Executive",
         "vertical": "Shop On Call",
         "morning_time": "10:56 AM",
-        "evening_time": "06:39 PM",
+        "evening_time": "06:46 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1794,7 +1134,7 @@
         "designation": "Executive",
         "vertical": "Coupon Code Calling",
         "morning_time": "10:46 AM",
-        "evening_time": "06:32 PM",
+        "evening_time": "07:41 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1820,7 +1160,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -1854,7 +1194,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp Low Cart",
         "morning_time": "11:12 AM",
-        "evening_time": "06:49 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1866,7 +1206,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "11:01 AM",
-        "evening_time": "-",
+        "evening_time": "06:40 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1878,7 +1218,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "11:13 AM",
-        "evening_time": "11:16 PM",
+        "evening_time": "08:43 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -1998,7 +1338,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:16 AM",
-        "evening_time": "-",
+        "evening_time": "10:15 AM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2022,7 +1362,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:59 AM",
-        "evening_time": "06:52 PM",
+        "evening_time": "06:33 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2034,9 +1374,9 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:46 AM",
-        "evening_time": "-",
+        "evening_time": "06:34 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -2060,7 +1400,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -2070,7 +1410,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:27 AM",
-        "evening_time": "06:39 PM",
+        "evening_time": "06:59 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2082,9 +1422,9 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:26 AM",
-        "evening_time": "-",
+        "evening_time": "06:35 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -2106,7 +1446,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "11:06 AM",
-        "evening_time": "10:47 PM",
+        "evening_time": "09:37 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2154,7 +1494,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "10:14 AM",
-        "evening_time": "06:32 PM",
+        "evening_time": "06:49 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2178,7 +1518,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "-",
-        "evening_time": "07:06 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2190,7 +1530,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:28 AM",
-        "evening_time": "07:03 PM",
+        "evening_time": "06:37 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2214,9 +1554,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:35 AM",
-        "evening_time": "-",
+        "evening_time": "06:35 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -2250,9 +1590,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:26 AM",
-        "evening_time": "06:35 PM",
+        "evening_time": "06:31 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -2262,7 +1602,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "10:24 AM",
-        "evening_time": "07:08 PM",
+        "evening_time": "06:38 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2274,7 +1614,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "10:01 AM",
-        "evening_time": "06:54 PM",
+        "evening_time": "06:32 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2286,9 +1626,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:05 AM",
-        "evening_time": "09:51 PM",
+        "evening_time": "06:41 PM",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -2298,7 +1638,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "11:08 AM",
-        "evening_time": "06:32 PM",
+        "evening_time": "06:36 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2322,7 +1662,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "11:04 AM",
-        "evening_time": "06:41 PM",
+        "evening_time": "06:40 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2334,7 +1674,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:37 AM",
-        "evening_time": "-",
+        "evening_time": "07:42 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2346,7 +1686,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:40 AM",
-        "evening_time": "07:32 PM",
+        "evening_time": "08:34 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2358,7 +1698,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "11:04 AM",
-        "evening_time": "-",
+        "evening_time": "08:31 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2370,7 +1710,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "11:04 AM",
-        "evening_time": "07:16 PM",
+        "evening_time": "06:35 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2394,7 +1734,7 @@
         "designation": "Executive",
         "vertical": "Shop On Call",
         "morning_time": "11:04 AM",
-        "evening_time": "07:03 PM",
+        "evening_time": "06:39 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2454,7 +1794,7 @@
         "designation": "Executive",
         "vertical": "Coupon Code Calling",
         "morning_time": "10:56 AM",
-        "evening_time": "10:02 PM",
+        "evening_time": "06:32 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2468,7 +1808,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -2480,7 +1820,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -2490,7 +1830,7 @@
         "designation": "Executive",
         "vertical": "Coupon Code Calling",
         "morning_time": "-",
-        "evening_time": "09:31 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2514,7 +1854,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp Low Cart",
         "morning_time": "10:59 AM",
-        "evening_time": "07:04 PM",
+        "evening_time": "06:49 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2526,7 +1866,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "-",
-        "evening_time": "06:35 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2538,7 +1878,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "11:10 AM",
-        "evening_time": "08:47 PM",
+        "evening_time": "11:16 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2682,7 +2022,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "11:13 AM",
-        "evening_time": "01:56 PM",
+        "evening_time": "06:52 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2694,9 +2034,9 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "-",
-        "evening_time": "01:46 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -2730,7 +2070,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:29 AM",
-        "evening_time": "-",
+        "evening_time": "06:39 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2744,7 +2084,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -2756,7 +2096,7 @@
         "morning_time": "11:07 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -2766,9 +2106,9 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "10:51 AM",
-        "evening_time": "-",
+        "evening_time": "10:47 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -2780,7 +2120,7 @@
         "morning_time": "10:58 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -2792,7 +2132,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -2804,7 +2144,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -2814,9 +2154,9 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "10:09 AM",
-        "evening_time": "-",
+        "evening_time": "06:32 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -2828,7 +2168,7 @@
         "morning_time": "10:40 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -2838,9 +2178,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "11:24 AM",
-        "evening_time": "01:54 PM",
+        "evening_time": "07:06 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -2850,7 +2190,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:34 AM",
-        "evening_time": "01:30 PM",
+        "evening_time": "07:03 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2862,7 +2202,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:45 AM",
-        "evening_time": "02:02 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2874,9 +2214,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "-",
-        "evening_time": "01:06 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -2910,9 +2250,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:24 AM",
-        "evening_time": "01:29 PM",
+        "evening_time": "06:35 PM",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -2922,9 +2262,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "10:27 AM",
-        "evening_time": "-",
+        "evening_time": "07:08 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -2934,7 +2274,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "10:08 AM",
-        "evening_time": "01:34 PM",
+        "evening_time": "06:54 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2946,7 +2286,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:37 AM",
-        "evening_time": "02:09 PM",
+        "evening_time": "09:51 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2958,9 +2298,9 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "11:10 AM",
-        "evening_time": "-",
+        "evening_time": "06:32 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -2970,7 +2310,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "11:01 AM",
-        "evening_time": "-",
+        "evening_time": "06:36 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2982,7 +2322,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "11:13 AM",
-        "evening_time": "02:34 PM",
+        "evening_time": "06:41 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -2994,7 +2334,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:39 AM",
-        "evening_time": "03:24 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -3006,7 +2346,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:45 AM",
-        "evening_time": "02:55 PM",
+        "evening_time": "07:32 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -3030,7 +2370,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:40 AM",
-        "evening_time": "01:05 PM",
+        "evening_time": "07:16 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -3044,7 +2384,7 @@
         "morning_time": "11:17 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -3054,9 +2394,9 @@
         "designation": "Executive",
         "vertical": "Shop On Call",
         "morning_time": "11:10 AM",
-        "evening_time": "-",
+        "evening_time": "07:03 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -3068,7 +2408,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -3092,7 +2432,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -3114,7 +2454,7 @@
         "designation": "Executive",
         "vertical": "Coupon Code Calling",
         "morning_time": "11:26 AM",
-        "evening_time": "03:57 PM",
+        "evening_time": "10:02 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -3128,7 +2468,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3150,7 +2490,7 @@
         "designation": "Executive",
         "vertical": "Coupon Code Calling",
         "morning_time": "11:18 AM",
-        "evening_time": "-",
+        "evening_time": "09:31 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -3164,7 +2504,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -3174,9 +2514,9 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp Low Cart",
         "morning_time": "11:23 AM",
-        "evening_time": "-",
+        "evening_time": "07:04 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -3186,9 +2526,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "10:44 AM",
-        "evening_time": "-",
+        "evening_time": "06:35 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -3198,7 +2538,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "11:10 AM",
-        "evening_time": "04:03 PM",
+        "evening_time": "08:47 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -3224,7 +2564,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -3236,7 +2576,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -3248,7 +2588,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -3260,7 +2600,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -3272,7 +2612,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -3284,7 +2624,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -3296,7 +2636,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -3308,7 +2648,7 @@
         "morning_time": "11:00 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -3320,7 +2660,7 @@
         "morning_time": "07:43 PM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -3330,7 +2670,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:44 AM",
-        "evening_time": "01:02 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -3342,7 +2682,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:36 AM",
-        "evening_time": "01:03 PM",
+        "evening_time": "01:56 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -3354,7 +2694,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:37 AM",
-        "evening_time": "01:01 PM",
+        "evening_time": "01:46 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -3390,7 +2730,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "-",
-        "evening_time": "01:03 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -3402,7 +2742,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "-",
-        "evening_time": "01:00 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -3414,9 +2754,9 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "11:22 AM",
-        "evening_time": "02:26 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3426,9 +2766,9 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "-",
-        "evening_time": "01:10 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3440,7 +2780,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3452,7 +2792,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3464,7 +2804,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3474,9 +2814,9 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "-",
-        "evening_time": "01:02 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3486,9 +2826,9 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "-",
-        "evening_time": "02:37 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3498,9 +2838,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:46 AM",
-        "evening_time": "01:07 PM",
+        "evening_time": "01:54 PM",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3510,7 +2850,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "-",
-        "evening_time": "01:01 PM",
+        "evening_time": "01:30 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -3522,9 +2862,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "-",
-        "evening_time": "-",
+        "evening_time": "02:02 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -3534,7 +2874,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:24 AM",
-        "evening_time": "03:34 PM",
+        "evening_time": "01:06 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -3546,7 +2886,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "11:14 AM",
-        "evening_time": "01:25 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -3570,7 +2910,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "12:46 PM",
-        "evening_time": "01:04 PM",
+        "evening_time": "01:29 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -3582,9 +2922,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "-",
-        "evening_time": "01:08 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3594,7 +2934,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "11:45 AM",
-        "evening_time": "01:05 PM",
+        "evening_time": "01:34 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -3606,7 +2946,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "11:03 AM",
-        "evening_time": "01:21 PM",
+        "evening_time": "02:09 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -3618,9 +2958,9 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "-",
-        "evening_time": "01:00 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3632,7 +2972,7 @@
         "morning_time": "11:04 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -3642,9 +2982,9 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "11:03 AM",
-        "evening_time": "-",
+        "evening_time": "02:34 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -3654,7 +2994,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:22 AM",
-        "evening_time": "02:01 PM",
+        "evening_time": "03:24 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -3666,7 +3006,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:18 AM",
-        "evening_time": "01:09 PM",
+        "evening_time": "02:55 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -3678,7 +3018,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "11:24 AM",
-        "evening_time": "02:45 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -3690,7 +3030,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "11:01 AM",
-        "evening_time": "01:08 PM",
+        "evening_time": "01:05 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -3704,7 +3044,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3714,9 +3054,9 @@
         "designation": "Executive",
         "vertical": "Shop On Call",
         "morning_time": "-",
-        "evening_time": "01:03 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3728,7 +3068,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3740,7 +3080,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -3752,7 +3092,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3774,7 +3114,7 @@
         "designation": "Executive",
         "vertical": "Coupon Code Calling",
         "morning_time": "11:21 AM",
-        "evening_time": "-",
+        "evening_time": "03:57 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -3812,7 +3152,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -3824,7 +3164,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3834,9 +3174,9 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp Low Cart",
         "morning_time": "-",
-        "evening_time": "04:01 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3846,9 +3186,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "-",
-        "evening_time": "01:05 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3858,9 +3198,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "10:59 AM",
-        "evening_time": "-",
+        "evening_time": "04:03 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -3872,7 +3212,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -3884,7 +3224,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3896,7 +3236,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3908,7 +3248,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3920,7 +3260,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3932,7 +3272,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3944,7 +3284,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3956,7 +3296,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3966,9 +3306,9 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "-",
-        "evening_time": "01:09 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3978,9 +3318,9 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "-",
-        "evening_time": "02:01 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -3990,7 +3330,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:53 AM",
-        "evening_time": "01:14 PM",
+        "evening_time": "01:02 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4002,7 +3342,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:53 AM",
-        "evening_time": "02:13 PM",
+        "evening_time": "01:03 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4014,7 +3354,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:32 AM",
-        "evening_time": "01:05 PM",
+        "evening_time": "01:01 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4028,7 +3368,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -4050,9 +3390,9 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:44 AM",
-        "evening_time": "-",
+        "evening_time": "01:03 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -4062,7 +3402,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:22 AM",
-        "evening_time": "01:02 PM",
+        "evening_time": "01:00 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4074,7 +3414,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:12 AM",
-        "evening_time": "-",
+        "evening_time": "02:26 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4086,7 +3426,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "10:21 AM",
-        "evening_time": "01:09 PM",
+        "evening_time": "01:10 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4098,7 +3438,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "10:08 AM",
-        "evening_time": "01:04 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4146,7 +3486,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "10:33 AM",
-        "evening_time": "01:07 PM",
+        "evening_time": "02:37 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4158,7 +3498,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "11:03 AM",
-        "evening_time": "01:35 PM",
+        "evening_time": "01:07 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4170,7 +3510,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:59 AM",
-        "evening_time": "01:09 PM",
+        "evening_time": "01:01 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4184,7 +3524,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -4194,7 +3534,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:18 AM",
-        "evening_time": "01:14 PM",
+        "evening_time": "03:34 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4206,9 +3546,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:29 AM",
-        "evening_time": "-",
+        "evening_time": "01:25 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -4230,7 +3570,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:32 AM",
-        "evening_time": "01:01 PM",
+        "evening_time": "01:04 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4242,7 +3582,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "10:15 AM",
-        "evening_time": "01:34 PM",
+        "evening_time": "01:08 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4254,9 +3594,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "10:43 AM",
-        "evening_time": "-",
+        "evening_time": "01:05 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -4266,7 +3606,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:13 AM",
-        "evening_time": "-",
+        "evening_time": "01:21 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4278,7 +3618,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "11:09 AM",
-        "evening_time": "01:02 PM",
+        "evening_time": "01:00 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4290,9 +3630,9 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "-",
-        "evening_time": "01:08 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -4302,9 +3642,9 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "-",
-        "evening_time": "01:06 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -4314,9 +3654,9 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:42 AM",
-        "evening_time": "-",
+        "evening_time": "02:01 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -4326,7 +3666,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:41 AM",
-        "evening_time": "01:01 PM",
+        "evening_time": "01:09 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4338,7 +3678,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:18 AM",
-        "evening_time": "-",
+        "evening_time": "02:45 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4350,7 +3690,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:23 AM",
-        "evening_time": "01:25 PM",
+        "evening_time": "01:08 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4374,7 +3714,7 @@
         "designation": "Executive",
         "vertical": "Shop On Call",
         "morning_time": "11:08 AM",
-        "evening_time": "01:04 PM",
+        "evening_time": "01:03 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4400,7 +3740,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -4434,9 +3774,9 @@
         "designation": "Executive",
         "vertical": "Coupon Code Calling",
         "morning_time": "10:49 AM",
-        "evening_time": "04:27 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -4472,7 +3812,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -4494,7 +3834,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp Low Cart",
         "morning_time": "10:50 AM",
-        "evening_time": "01:12 PM",
+        "evening_time": "04:01 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4506,7 +3846,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "10:48 AM",
-        "evening_time": "-",
+        "evening_time": "01:05 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4518,9 +3858,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "-",
-        "evening_time": "03:06 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -4532,7 +3872,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -4626,7 +3966,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:49 AM",
-        "evening_time": "-",
+        "evening_time": "01:09 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4638,7 +3978,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:23 AM",
-        "evening_time": "-",
+        "evening_time": "02:01 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4650,7 +3990,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:52 AM",
-        "evening_time": "-",
+        "evening_time": "01:14 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4662,9 +4002,9 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:11 AM",
-        "evening_time": "-",
+        "evening_time": "02:13 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -4674,7 +4014,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:21 AM",
-        "evening_time": "-",
+        "evening_time": "01:05 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4688,7 +4028,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -4712,7 +4052,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -4722,7 +4062,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:19 AM",
-        "evening_time": "-",
+        "evening_time": "01:02 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4746,7 +4086,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "10:39 AM",
-        "evening_time": "-",
+        "evening_time": "01:09 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4758,7 +4098,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "10:21 AM",
-        "evening_time": "-",
+        "evening_time": "01:04 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4794,7 +4134,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "10:07 AM",
-        "evening_time": "-",
+        "evening_time": "01:02 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4806,7 +4146,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "10:33 AM",
-        "evening_time": "-",
+        "evening_time": "01:07 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4818,7 +4158,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:50 AM",
-        "evening_time": "-",
+        "evening_time": "01:35 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4830,7 +4170,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:17 AM",
-        "evening_time": "-",
+        "evening_time": "01:09 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4854,7 +4194,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:33 AM",
-        "evening_time": "-",
+        "evening_time": "01:14 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4868,7 +4208,7 @@
         "morning_time": "11:07 AM",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -4880,7 +4220,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -4890,7 +4230,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:11 AM",
-        "evening_time": "-",
+        "evening_time": "01:01 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4902,7 +4242,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "10:45 AM",
-        "evening_time": "-",
+        "evening_time": "01:34 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4916,7 +4256,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -4938,7 +4278,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "11:10 AM",
-        "evening_time": "-",
+        "evening_time": "01:02 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4950,7 +4290,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "-",
-        "evening_time": "-",
+        "evening_time": "01:08 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4962,7 +4302,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:58 AM",
-        "evening_time": "-",
+        "evening_time": "01:06 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4976,7 +4316,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -4986,9 +4326,9 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:34 AM",
-        "evening_time": "-",
+        "evening_time": "01:01 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -5010,9 +4350,9 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:29 AM",
-        "evening_time": "-",
+        "evening_time": "01:25 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -5034,7 +4374,7 @@
         "designation": "Executive",
         "vertical": "Shop On Call",
         "morning_time": "10:57 AM",
-        "evening_time": "-",
+        "evening_time": "01:04 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5084,7 +4424,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -5094,9 +4434,9 @@
         "designation": "Executive",
         "vertical": "Coupon Code Calling",
         "morning_time": "11:05 AM",
-        "evening_time": "-",
+        "evening_time": "04:27 PM",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -5154,7 +4494,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp Low Cart",
         "morning_time": "10:35 AM",
-        "evening_time": "-",
+        "evening_time": "01:12 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5178,7 +4518,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "11:03 AM",
-        "evening_time": "-",
+        "evening_time": "03:06 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5286,7 +4626,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "05:26 AM",
-        "evening_time": "01:01 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5298,7 +4638,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "05:03 AM",
-        "evening_time": "01:48 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5312,7 +4652,7 @@
         "morning_time": "05:29 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -5322,9 +4662,9 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "-",
-        "evening_time": "01:19 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -5334,7 +4674,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "05:49 AM",
-        "evening_time": "01:21 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5370,7 +4710,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "-",
-        "evening_time": "01:15 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5382,7 +4722,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "04:46 AM",
-        "evening_time": "01:45 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5406,7 +4746,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "04:51 AM",
-        "evening_time": "04:39 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5466,7 +4806,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "04:59 AM",
-        "evening_time": "01:35 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5492,7 +4832,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -5502,7 +4842,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "05:44 AM",
-        "evening_time": "01:04 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5514,7 +4854,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "05:05 AM",
-        "evening_time": "01:10 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5540,7 +4880,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -5550,7 +4890,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "05:17 AM",
-        "evening_time": "01:05 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5562,7 +4902,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "05:15 AM",
-        "evening_time": "01:35 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5574,7 +4914,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "05:27 AM",
-        "evening_time": "01:36 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5586,7 +4926,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "04:48 AM",
-        "evening_time": "02:08 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5598,7 +4938,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "05:33 AM",
-        "evening_time": "01:02 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5610,7 +4950,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "05:26 AM",
-        "evening_time": "01:05 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5622,7 +4962,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "05:31 AM",
-        "evening_time": "01:11 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5646,9 +4986,9 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "-",
-        "evening_time": "01:28 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -5660,7 +5000,7 @@
         "morning_time": "05:02 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -5670,9 +5010,9 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "-",
-        "evening_time": "01:33 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -5682,7 +5022,7 @@
         "designation": "Executive",
         "vertical": "Shop On Video Call",
         "morning_time": "05:44 AM",
-        "evening_time": "01:13 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5694,7 +5034,7 @@
         "designation": "Executive",
         "vertical": "Shop On Call",
         "morning_time": "05:22 AM",
-        "evening_time": "01:22 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5744,7 +5084,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -5814,7 +5154,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp Low Cart",
         "morning_time": "05:07 AM",
-        "evening_time": "01:36 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5826,7 +5166,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "05:01 AM",
-        "evening_time": "01:28 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5838,7 +5178,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "05:29 AM",
-        "evening_time": "04:21 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5850,7 +5190,7 @@
         "designation": "Executive",
         "vertical": "Meta Leadgen",
         "morning_time": "05:32 AM",
-        "evening_time": "01:26 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5862,7 +5202,7 @@
         "designation": "Executive",
         "vertical": "Meta Leadgen",
         "morning_time": "-",
-        "evening_time": "01:25 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5946,7 +5286,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "05:28 AM",
-        "evening_time": "01:55 PM",
+        "evening_time": "01:01 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5958,7 +5298,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "04:31 AM",
-        "evening_time": "-",
+        "evening_time": "01:48 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5970,9 +5310,9 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "-",
-        "evening_time": "01:12 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -5982,7 +5322,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "05:22 AM",
-        "evening_time": "01:52 PM",
+        "evening_time": "01:19 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -5994,7 +5334,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "-",
-        "evening_time": "-",
+        "evening_time": "01:21 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6020,7 +5360,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -6030,7 +5370,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "04:50 AM",
-        "evening_time": "03:01 PM",
+        "evening_time": "01:15 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6042,7 +5382,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "05:26 AM",
-        "evening_time": "-",
+        "evening_time": "01:45 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6054,7 +5394,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "04:44 AM",
-        "evening_time": "01:06 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6066,7 +5406,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "04:54 AM",
-        "evening_time": "03:33 PM",
+        "evening_time": "04:39 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6090,7 +5430,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "05:35 AM",
-        "evening_time": "03:18 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6126,7 +5466,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "05:26 AM",
-        "evening_time": "03:30 PM",
+        "evening_time": "01:35 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6152,7 +5492,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -6162,7 +5502,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "-",
-        "evening_time": "03:28 PM",
+        "evening_time": "01:04 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6174,7 +5514,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "04:58 AM",
-        "evening_time": "01:25 PM",
+        "evening_time": "01:10 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6210,7 +5550,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "05:18 AM",
-        "evening_time": "01:23 PM",
+        "evening_time": "01:05 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6222,7 +5562,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "05:29 AM",
-        "evening_time": "03:22 PM",
+        "evening_time": "01:35 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6234,7 +5574,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "04:53 AM",
-        "evening_time": "02:46 PM",
+        "evening_time": "01:36 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6246,9 +5586,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "05:11 AM",
-        "evening_time": "02:30 PM",
+        "evening_time": "02:08 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -6258,7 +5598,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "05:31 AM",
-        "evening_time": "-",
+        "evening_time": "01:02 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6270,7 +5610,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "05:07 AM",
-        "evening_time": "01:26 PM",
+        "evening_time": "01:05 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6282,7 +5622,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "05:30 AM",
-        "evening_time": "02:44 PM",
+        "evening_time": "01:11 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6306,7 +5646,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "05:13 AM",
-        "evening_time": "02:23 PM",
+        "evening_time": "01:28 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6318,9 +5658,9 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "05:38 AM",
-        "evening_time": "03:17 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -6330,7 +5670,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "05:22 AM",
-        "evening_time": "01:48 PM",
+        "evening_time": "01:33 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6342,7 +5682,7 @@
         "designation": "Executive",
         "vertical": "Shop On Video Call",
         "morning_time": "06:16 AM",
-        "evening_time": "03:16 PM",
+        "evening_time": "01:13 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6354,7 +5694,7 @@
         "designation": "Executive",
         "vertical": "Shop On Call",
         "morning_time": "05:34 AM",
-        "evening_time": "02:30 PM",
+        "evening_time": "01:22 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6402,7 +5742,7 @@
         "designation": "Executive",
         "vertical": "Coupon Code Calling",
         "morning_time": "08:21 AM",
-        "evening_time": "04:31 AM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6440,7 +5780,7 @@
         "morning_time": "05:57 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -6474,7 +5814,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp Low Cart",
         "morning_time": "05:34 AM",
-        "evening_time": "02:08 PM",
+        "evening_time": "01:36 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6486,7 +5826,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "05:10 AM",
-        "evening_time": "01:02 PM",
+        "evening_time": "01:28 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6498,7 +5838,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "05:32 AM",
-        "evening_time": "03:07 PM",
+        "evening_time": "04:21 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6510,7 +5850,7 @@
         "designation": "Executive",
         "vertical": "Meta Leadgen",
         "morning_time": "-",
-        "evening_time": "02:47 PM",
+        "evening_time": "01:26 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6522,7 +5862,7 @@
         "designation": "Executive",
         "vertical": "Meta Leadgen",
         "morning_time": "05:45 AM",
-        "evening_time": "-",
+        "evening_time": "01:25 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6606,7 +5946,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "05:12 AM",
-        "evening_time": "-",
+        "evening_time": "01:55 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6618,7 +5958,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "05:08 AM",
-        "evening_time": "01:41 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6630,7 +5970,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "04:40 AM",
-        "evening_time": "01:29 PM",
+        "evening_time": "01:12 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6642,7 +5982,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "04:49 AM",
-        "evening_time": "01:25 PM",
+        "evening_time": "01:52 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6656,7 +5996,7 @@
         "morning_time": "05:58 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -6680,7 +6020,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -6690,7 +6030,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "04:57 AM",
-        "evening_time": "-",
+        "evening_time": "03:01 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6702,9 +6042,9 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "05:13 AM",
-        "evening_time": "01:57 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -6714,7 +6054,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "05:07 AM",
-        "evening_time": "02:31 PM",
+        "evening_time": "01:06 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6726,7 +6066,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "04:51 AM",
-        "evening_time": "02:34 PM",
+        "evening_time": "03:33 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6750,7 +6090,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "05:12 AM",
-        "evening_time": "-",
+        "evening_time": "03:18 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6786,7 +6126,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "-",
-        "evening_time": "03:13 PM",
+        "evening_time": "03:30 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6810,7 +6150,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "05:18 AM",
-        "evening_time": "01:47 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6822,7 +6162,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "-",
-        "evening_time": "-",
+        "evening_time": "03:28 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6834,9 +6174,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "04:55 AM",
-        "evening_time": "-",
+        "evening_time": "01:25 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -6846,7 +6186,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "05:15 AM",
-        "evening_time": "05:11 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6870,9 +6210,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "05:15 AM",
-        "evening_time": "-",
+        "evening_time": "01:23 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -6882,7 +6222,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "05:10 AM",
-        "evening_time": "04:40 PM",
+        "evening_time": "03:22 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6894,7 +6234,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "05:47 AM",
-        "evening_time": "03:17 PM",
+        "evening_time": "02:46 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6908,7 +6248,7 @@
         "morning_time": "05:06 AM",
         "evening_time": "02:30 PM",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -6918,7 +6258,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "05:25 AM",
-        "evening_time": "01:02 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6930,7 +6270,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "05:17 AM",
-        "evening_time": "01:46 PM",
+        "evening_time": "01:26 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6942,7 +6282,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "05:20 AM",
-        "evening_time": "01:57 PM",
+        "evening_time": "02:44 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6966,7 +6306,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "04:57 AM",
-        "evening_time": "01:10 PM",
+        "evening_time": "02:23 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6978,7 +6318,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "05:37 AM",
-        "evening_time": "01:32 PM",
+        "evening_time": "03:17 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -6990,7 +6330,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "04:39 AM",
-        "evening_time": "01:08 PM",
+        "evening_time": "01:48 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7002,7 +6342,7 @@
         "designation": "Executive",
         "vertical": "Shop On Video Call",
         "morning_time": "04:49 AM",
-        "evening_time": "-",
+        "evening_time": "03:16 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7014,7 +6354,7 @@
         "designation": "Executive",
         "vertical": "Shop On Call",
         "morning_time": "05:53 AM",
-        "evening_time": "02:17 PM",
+        "evening_time": "02:30 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7062,7 +6402,7 @@
         "designation": "Executive",
         "vertical": "Coupon Code Calling",
         "morning_time": "-",
-        "evening_time": "-",
+        "evening_time": "04:31 AM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7074,7 +6414,7 @@
         "designation": "Executive",
         "vertical": "Coupon Code Calling",
         "morning_time": "05:41 AM",
-        "evening_time": "01:30 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7088,7 +6428,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7100,7 +6440,7 @@
         "morning_time": "05:04 AM",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -7134,7 +6474,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp Low Cart",
         "morning_time": "07:23 AM",
-        "evening_time": "-",
+        "evening_time": "02:08 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7146,7 +6486,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "05:16 AM",
-        "evening_time": "01:25 PM",
+        "evening_time": "01:02 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7158,7 +6498,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "05:26 AM",
-        "evening_time": "03:37 PM",
+        "evening_time": "03:07 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7170,7 +6510,7 @@
         "designation": "Executive",
         "vertical": "Meta Leadgen",
         "morning_time": "05:24 AM",
-        "evening_time": "-",
+        "evening_time": "02:47 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7182,7 +6522,7 @@
         "designation": "Executive",
         "vertical": "Meta Leadgen",
         "morning_time": "04:31 AM",
-        "evening_time": "02:49 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7278,7 +6618,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:21 AM",
-        "evening_time": "-",
+        "evening_time": "01:41 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7290,7 +6630,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "11:02 AM",
-        "evening_time": "-",
+        "evening_time": "01:29 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7302,7 +6642,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:43 AM",
-        "evening_time": "-",
+        "evening_time": "01:25 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7316,7 +6656,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -7362,9 +6702,9 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:41 AM",
-        "evening_time": "-",
+        "evening_time": "01:57 PM",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -7374,9 +6714,9 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:17 AM",
-        "evening_time": "-",
+        "evening_time": "02:31 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7386,9 +6726,9 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "10:37 AM",
-        "evening_time": "-",
+        "evening_time": "02:34 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7400,7 +6740,7 @@
         "morning_time": "10:14 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7412,7 +6752,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7424,7 +6764,7 @@
         "morning_time": "10:36 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7436,7 +6776,7 @@
         "morning_time": "10:17 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7446,9 +6786,9 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "10:10 AM",
-        "evening_time": "-",
+        "evening_time": "03:13 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7460,7 +6800,7 @@
         "morning_time": "11:08 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7470,7 +6810,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:35 AM",
-        "evening_time": "-",
+        "evening_time": "01:47 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7496,7 +6836,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -7506,7 +6846,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:37 AM",
-        "evening_time": "-",
+        "evening_time": "05:11 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7532,7 +6872,7 @@
         "morning_time": "10:20 AM",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -7542,9 +6882,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "10:06 AM",
-        "evening_time": "-",
+        "evening_time": "04:40 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7554,7 +6894,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "11:10 AM",
-        "evening_time": "-",
+        "evening_time": "03:17 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7566,7 +6906,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:36 AM",
-        "evening_time": "-",
+        "evening_time": "02:30 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7578,9 +6918,9 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "11:26 AM",
-        "evening_time": "-",
+        "evening_time": "01:02 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7590,7 +6930,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:56 AM",
-        "evening_time": "-",
+        "evening_time": "01:46 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7602,7 +6942,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:55 AM",
-        "evening_time": "-",
+        "evening_time": "01:57 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7626,7 +6966,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:30 AM",
-        "evening_time": "-",
+        "evening_time": "01:10 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7638,7 +6978,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "11:21 AM",
-        "evening_time": "-",
+        "evening_time": "01:32 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7650,7 +6990,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:11 AM",
-        "evening_time": "-",
+        "evening_time": "01:08 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7664,7 +7004,7 @@
         "morning_time": "10:23 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7674,9 +7014,9 @@
         "designation": "Executive",
         "vertical": "Shop On Call",
         "morning_time": "10:55 AM",
-        "evening_time": "-",
+        "evening_time": "02:17 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7688,7 +7028,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7712,7 +7052,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7734,7 +7074,7 @@
         "designation": "Executive",
         "vertical": "Coupon Code Calling",
         "morning_time": "11:14 AM",
-        "evening_time": "-",
+        "evening_time": "01:30 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7748,7 +7088,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -7784,7 +7124,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7796,7 +7136,7 @@
         "morning_time": "10:38 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7806,9 +7146,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "10:36 AM",
-        "evening_time": "-",
+        "evening_time": "01:25 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7818,7 +7158,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "10:47 AM",
-        "evening_time": "-",
+        "evening_time": "03:37 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -7842,9 +7182,9 @@
         "designation": "Executive",
         "vertical": "Meta Leadgen",
         "morning_time": "10:48 AM",
-        "evening_time": "-",
+        "evening_time": "02:49 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7856,7 +7196,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7868,7 +7208,7 @@
         "morning_time": "11:17 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7880,7 +7220,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7892,7 +7232,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7904,7 +7244,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7916,7 +7256,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7928,7 +7268,7 @@
         "morning_time": "10:44 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -7940,7 +7280,7 @@
         "morning_time": "10:09 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -8036,7 +7376,7 @@
         "morning_time": "10:15 AM",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8048,7 +7388,7 @@
         "morning_time": "10:47 AM",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8060,7 +7400,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8072,7 +7412,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8084,7 +7424,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8096,7 +7436,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8108,7 +7448,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8120,7 +7460,7 @@
         "morning_time": "11:14 AM",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8144,7 +7484,7 @@
         "morning_time": "11:26 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -8204,7 +7544,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8240,7 +7580,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8252,7 +7592,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -8264,7 +7604,7 @@
         "morning_time": "10:47 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -8324,7 +7664,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8336,7 +7676,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8348,7 +7688,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8360,7 +7700,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -8372,7 +7712,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8432,7 +7772,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -8444,7 +7784,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8456,7 +7796,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8468,7 +7808,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8480,7 +7820,7 @@
         "morning_time": "11:00 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -8492,7 +7832,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -8504,7 +7844,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8516,7 +7856,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8528,7 +7868,7 @@
         "morning_time": "10:44 AM",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8540,7 +7880,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8552,7 +7892,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8564,7 +7904,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8576,7 +7916,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8586,9 +7926,9 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "-",
-        "evening_time": "06:32 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8600,7 +7940,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8610,7 +7950,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:53 AM",
-        "evening_time": "06:56 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -8622,7 +7962,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:21 AM",
-        "evening_time": "06:38 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -8634,7 +7974,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:29 AM",
-        "evening_time": "06:47 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -8648,7 +7988,7 @@
         "morning_time": "10:20 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -8672,7 +8012,7 @@
         "morning_time": "10:32 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -8682,7 +8022,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:30 AM",
-        "evening_time": "06:31 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -8694,7 +8034,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:41 AM",
-        "evening_time": "06:35 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -8706,7 +8046,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "10:26 AM",
-        "evening_time": "08:46 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -8718,7 +8058,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "10:13 AM",
-        "evening_time": "06:39 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -8730,7 +8070,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "10:40 AM",
-        "evening_time": "06:37 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -8778,7 +8118,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "-",
-        "evening_time": "06:39 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -8790,7 +8130,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:22 AM",
-        "evening_time": "06:51 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -8802,9 +8142,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "11:34 AM",
-        "evening_time": "06:31 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8814,7 +8154,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:29 AM",
-        "evening_time": "06:44 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -8828,7 +8168,7 @@
         "morning_time": "10:30 AM",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -8850,7 +8190,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:40 AM",
-        "evening_time": "06:39 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -8862,7 +8202,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "10:33 AM",
-        "evening_time": "06:38 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -8874,9 +8214,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "-",
-        "evening_time": "07:26 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -8886,7 +8226,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:23 AM",
-        "evening_time": "07:07 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -8898,7 +8238,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:57 AM",
-        "evening_time": "06:32 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -8912,7 +8252,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8922,9 +8262,9 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "-",
-        "evening_time": "07:03 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -8934,9 +8274,9 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "-",
-        "evening_time": "06:56 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -8946,7 +8286,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:25 AM",
-        "evening_time": "06:40 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -8958,7 +8298,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "11:04 AM",
-        "evening_time": "06:54 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -8970,7 +8310,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:31 AM",
-        "evening_time": "06:42 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -8982,7 +8322,7 @@
         "designation": "Executive",
         "vertical": "Shop On Video Call",
         "morning_time": "10:45 AM",
-        "evening_time": "06:39 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -8994,7 +8334,7 @@
         "designation": "Executive",
         "vertical": "Shop On Call",
         "morning_time": "11:11 AM",
-        "evening_time": "06:43 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9020,7 +8360,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -9054,9 +8394,9 @@
         "designation": "Executive",
         "vertical": "Coupon Code Calling",
         "morning_time": "10:54 AM",
-        "evening_time": "07:08 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -9092,7 +8432,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -9114,7 +8454,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp Low Cart",
         "morning_time": "10:37 AM",
-        "evening_time": "06:58 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9126,7 +8466,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "10:21 AM",
-        "evening_time": "06:43 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9138,9 +8478,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "-",
-        "evening_time": "06:40 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -9152,7 +8492,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -9246,7 +8586,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "-",
-        "evening_time": "06:34 PM",
+        "evening_time": "06:32 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9258,7 +8598,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "-",
-        "evening_time": "06:32 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9270,7 +8610,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "-",
-        "evening_time": "06:38 PM",
+        "evening_time": "06:56 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9282,9 +8622,9 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "-",
-        "evening_time": "-",
+        "evening_time": "06:38 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -9294,7 +8634,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "-",
-        "evening_time": "06:56 PM",
+        "evening_time": "06:47 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9306,9 +8646,9 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "-",
-        "evening_time": "06:34 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -9330,9 +8670,9 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "-",
-        "evening_time": "07:06 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -9342,7 +8682,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "-",
-        "evening_time": "06:33 PM",
+        "evening_time": "06:31 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9354,7 +8694,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "-",
-        "evening_time": "-",
+        "evening_time": "06:35 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9366,7 +8706,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "-",
-        "evening_time": "06:37 PM",
+        "evening_time": "08:46 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9378,7 +8718,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "-",
-        "evening_time": "06:33 PM",
+        "evening_time": "06:39 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9390,7 +8730,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "-",
-        "evening_time": "-",
+        "evening_time": "06:37 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9426,7 +8766,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "-",
-        "evening_time": "07:02 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9438,7 +8778,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "-",
-        "evening_time": "06:58 PM",
+        "evening_time": "06:39 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9450,7 +8790,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "-",
-        "evening_time": "06:37 PM",
+        "evening_time": "06:51 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9462,7 +8802,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "-",
-        "evening_time": "06:40 PM",
+        "evening_time": "06:31 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9474,7 +8814,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "-",
-        "evening_time": "06:38 PM",
+        "evening_time": "06:44 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9486,9 +8826,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "-",
-        "evening_time": "06:35 PM",
+        "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -9500,7 +8840,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -9510,7 +8850,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "-",
-        "evening_time": "06:32 PM",
+        "evening_time": "06:39 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9522,7 +8862,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "-",
-        "evening_time": "06:54 PM",
+        "evening_time": "06:38 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9534,9 +8874,9 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "-",
-        "evening_time": "06:51 PM",
+        "evening_time": "07:26 PM",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -9546,7 +8886,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "-",
-        "evening_time": "-",
+        "evening_time": "07:07 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9558,7 +8898,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "-",
-        "evening_time": "06:36 PM",
+        "evening_time": "06:32 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9570,7 +8910,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "-",
-        "evening_time": "06:34 PM",
+        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9582,7 +8922,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "-",
-        "evening_time": "06:32 PM",
+        "evening_time": "07:03 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9594,9 +8934,9 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "-",
-        "evening_time": "06:34 PM",
+        "evening_time": "06:56 PM",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -9606,9 +8946,9 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "-",
-        "evening_time": "06:34 PM",
+        "evening_time": "06:40 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -9618,7 +8958,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "-",
-        "evening_time": "06:43 PM",
+        "evening_time": "06:54 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9630,9 +8970,9 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "-",
-        "evening_time": "06:40 PM",
+        "evening_time": "06:42 PM",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -9642,7 +8982,7 @@
         "designation": "Executive",
         "vertical": "Shop On Video Call",
         "morning_time": "-",
-        "evening_time": "-",
+        "evening_time": "06:39 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9654,7 +8994,7 @@
         "designation": "Executive",
         "vertical": "Shop On Call",
         "morning_time": "-",
-        "evening_time": "06:36 PM",
+        "evening_time": "06:43 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9704,7 +9044,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -9714,9 +9054,9 @@
         "designation": "Executive",
         "vertical": "Coupon Code Calling",
         "morning_time": "-",
-        "evening_time": "-",
+        "evening_time": "07:08 PM",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -9774,7 +9114,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp Low Cart",
         "morning_time": "-",
-        "evening_time": "06:56 PM",
+        "evening_time": "06:58 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9786,7 +9126,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "-",
-        "evening_time": "06:45 PM",
+        "evening_time": "06:43 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9798,7 +9138,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "-",
-        "evening_time": "06:48 PM",
+        "evening_time": "06:40 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -9900,6 +9240,666 @@
         "is_lop": false
     },
     {
+        "date": "2026-07-02",
+        "agent_name": "Arati Anjaney Hande",
+        "email": "executive4@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Abandoned High Cart",
+        "morning_time": "-",
+        "evening_time": "06:34 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Shahrukh Khan",
+        "email": "executive6@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Abandoned High Cart",
+        "morning_time": "-",
+        "evening_time": "06:32 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Akanksha Thakre",
+        "email": "akanksha.t@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Abandoned High Cart",
+        "morning_time": "-",
+        "evening_time": "06:38 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Vishal Singh",
+        "email": "vishal.s@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Abandoned High Cart",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "OFF",
+        "evening_roster": "OFF",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Janhavi Patil",
+        "email": "janhavi.patil@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Abandoned High Cart",
+        "morning_time": "-",
+        "evening_time": "06:56 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Aditya Tiwari",
+        "email": "aditya.t@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Abandoned High Cart",
+        "morning_time": "-",
+        "evening_time": "06:34 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Ayushi Rathore",
+        "email": "ayushi.r@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Abandoned High Cart",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Akanksha Sharma",
+        "email": "akanksha.s@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Abandoned High Cart",
+        "morning_time": "-",
+        "evening_time": "07:06 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Kashish Jaiswal",
+        "email": "kashish.j@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Abandoned High Cart",
+        "morning_time": "-",
+        "evening_time": "06:33 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Fauziya Praveen",
+        "email": "executive18@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Abandoned High Cart",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Abdul Sohail",
+        "email": "abdul.sohail@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Shop On Whatsapp High Cart",
+        "morning_time": "-",
+        "evening_time": "06:37 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Apurva Bagde",
+        "email": "apurva.b@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Shop On Whatsapp High Cart",
+        "morning_time": "-",
+        "evening_time": "06:33 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Suyash Avaskar",
+        "email": "jf2f9pbttz@privaterelay.appleid.com",
+        "designation": "Executive",
+        "vertical": "Shop On Whatsapp High Cart",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Isha Gite",
+        "email": "isha.g@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Shop On Whatsapp High Cart",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Vaishnavi Bhaduria",
+        "email": "vaishnavi.b@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Shop On Whatsapp High Cart",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Parth Ziprae",
+        "email": "parth.z@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Shop On Whatsapp High Cart",
+        "morning_time": "-",
+        "evening_time": "07:02 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Shamal Yeole",
+        "email": "shamal.y@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Abandoned Low Cart",
+        "morning_time": "-",
+        "evening_time": "06:58 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Abhijeet Harde",
+        "email": "abhijeet.h@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Abandoned Low Cart",
+        "morning_time": "-",
+        "evening_time": "06:37 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Gaurav Seolkar",
+        "email": "gaurav.s@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Abandoned Low Cart",
+        "morning_time": "-",
+        "evening_time": "06:40 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Harshal Mutthe",
+        "email": "harshal.m@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Abandoned Low Cart",
+        "morning_time": "-",
+        "evening_time": "06:38 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Pranali Jadhao",
+        "email": "pranali.j@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Abandoned Low Cart",
+        "morning_time": "-",
+        "evening_time": "06:35 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Yashasvi Jain",
+        "email": "yashasvi.j@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Abandoned Low Cart",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "OFF",
+        "evening_roster": "OFF",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Ishwar Walke",
+        "email": "ishwar.w@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Abandoned Low Cart",
+        "morning_time": "-",
+        "evening_time": "06:32 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Ankita Ade",
+        "email": "ankita.a@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Abandoned Very Low Cart",
+        "morning_time": "-",
+        "evening_time": "06:54 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Bhavin Shrimankar",
+        "email": "bhavin.s@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Abandoned Very Low Cart",
+        "morning_time": "-",
+        "evening_time": "06:51 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Sanskruti Ranaware",
+        "email": "sanskruti.ranaware@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Abandoned Low Cart",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Palak Tiwari",
+        "email": "palak.t@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Immediate Retention Calling",
+        "morning_time": "-",
+        "evening_time": "06:36 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Priyanshi Pranami",
+        "email": "priyanshi.p@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Immediate Retention Calling",
+        "morning_time": "-",
+        "evening_time": "06:34 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Shyamli Parmar",
+        "email": "shyamli.p@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Immediate Retention Calling",
+        "morning_time": "-",
+        "evening_time": "06:32 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Prince Singh",
+        "email": "prince.s@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Immediate Retention Calling",
+        "morning_time": "-",
+        "evening_time": "06:34 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Sandeep Barman",
+        "email": "sandeep.b@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Immediate Retention Calling",
+        "morning_time": "-",
+        "evening_time": "06:34 PM",
+        "morning_roster": "OFF",
+        "evening_roster": "OFF",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Suraj Shinde",
+        "email": "suraj.shinde@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Immediate Retention Calling",
+        "morning_time": "-",
+        "evening_time": "06:43 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Prathamesh Rathod",
+        "email": "prathamesh.r@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Immediate Retention Calling",
+        "morning_time": "-",
+        "evening_time": "06:40 PM",
+        "morning_roster": "OFF",
+        "evening_roster": "OFF",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Vimarsh Raina",
+        "email": "vcagent2@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Shop On Video Call",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Shreyashi Jagtap",
+        "email": "shreyasi.j@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Shop On Call",
+        "morning_time": "-",
+        "evening_time": "06:36 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Omkar Mali",
+        "email": "omkar.m@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Incoming Call",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Pranav Shah",
+        "email": "pranav.s@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Incoming Call",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Anjali Pal",
+        "email": "anjali.pal@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Incoming Call",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Oshina Mittal",
+        "email": "oshina.m@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Coupon Code Calling",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "OFF",
+        "evening_roster": "OFF",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Kopal Tamrakar",
+        "email": "kopal.t@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Coupon Code Calling",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Shrushri Landge",
+        "email": "shrushti.l@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Coupon Code Calling",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Sakshi Mehra",
+        "email": "sakshi.m@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Coupon Code Calling",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Vayu Jain",
+        "email": "vayu.j@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Coupon Code Calling",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Vaishnavi Chougule",
+        "email": "vaishnavi.c@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Shop On Whatsapp Low Cart",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Bushra Sheikh",
+        "email": "bushra.s@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Shop On Whatsapp Low Cart",
+        "morning_time": "-",
+        "evening_time": "06:56 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Akshat Sharma",
+        "email": "akshat.sharma@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Abandoned Very Low Cart",
+        "morning_time": "-",
+        "evening_time": "06:45 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Subhalaxmi Satpathy",
+        "email": "subhalaxmi.s@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Abandoned Very Low Cart",
+        "morning_time": "-",
+        "evening_time": "06:48 PM",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Dona Sharma",
+        "email": "doona.s@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Meta Leadgen",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Mannaraj Agrawal",
+        "email": "mannraj.a@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Meta Leadgen",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Shilpi",
+        "email": "shilpi@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Meta Leadgen",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Khushboo Thawkar",
+        "email": "khushboo.t@myfrido.com",
+        "designation": "Executive",
+        "vertical": "Abandoned Very Low Cart",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Aayush Goyal",
+        "email": "aayush.g@myfrido.com",
+        "designation": "Team Lead",
+        "vertical": "Immediate Retention Calling",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Ankur Singh",
+        "email": "ankur.s@myfrido.com",
+        "designation": "Team Lead",
+        "vertical": "Abandoned High Cart",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Rishab De",
+        "email": "rishab.d@myfrido.com",
+        "designation": "Team Lead",
+        "vertical": "Abandoned Low Cart",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
+        "date": "2026-07-02",
+        "agent_name": "Dhanendra Kumar",
+        "email": "dhanendra.k@myfrido.com",
+        "designation": "Team Lead",
+        "vertical": "Shop On Whatsapp High Cart",
+        "morning_time": "-",
+        "evening_time": "-",
+        "morning_roster": "DS",
+        "evening_roster": "DS",
+        "is_lop": false
+    },
+    {
         "date": "2026-06-30",
         "agent_name": "Arati Anjaney Hande",
         "email": "executive4@myfrido.com",
@@ -9956,7 +9956,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -9980,7 +9980,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -10004,7 +10004,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -10136,7 +10136,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -10172,7 +10172,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -10208,7 +10208,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -10388,7 +10388,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
-        "evening_roster": "OFF",
+        "evening_roster": "DS",
         "is_lop": false
     },
     {
@@ -10400,7 +10400,7 @@
         "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "OFF",
-        "evening_roster": "DS",
+        "evening_roster": "OFF",
         "is_lop": false
     },
     {
