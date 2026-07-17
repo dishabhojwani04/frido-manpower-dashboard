@@ -22,7 +22,7 @@ def main():
         lop_df = pd.DataFrame(spreadsheet.worksheet("LOP").get_all_records())
         lop_df['Agent Name'] = lop_df['Agent Name'].astype(str).str.strip().str.lower()
         if 'Date of LOP' in lop_df.columns:
-            lop_df['Date of LOP'] = pd.to_datetime(lop_df['Date of LOP'], errors='coerce').dt.strftime('%Y-%m-%d')
+            lop_df['Date of LOP'] = pd.to_datetime(lop_df['Date of LOP'], dayfirst=True, errors='coerce').dt.strftime('%Y-%m-%d')
     except:
         lop_df = pd.DataFrame(columns=['Agent Name', 'Date of LOP'])
     
@@ -30,8 +30,9 @@ def main():
     morning_df['Employee Official Mail id'] = morning_df['Employee Official Mail id'].astype(str).str.strip().str.lower()
     evening_df['Official Mail Id'] = evening_df['Official Mail Id'].astype(str).str.strip().str.lower()
     
-    morning_df['Timestamp'] = pd.to_datetime(morning_df['Timestamp'], errors='coerce')
-    evening_df['Timestamp'] = pd.to_datetime(evening_df['Timestamp'], errors='coerce')
+    # *** FIXED: Added dayfirst=True to handle DD/MM/YYYY formats perfectly ***
+    morning_df['Timestamp'] = pd.to_datetime(morning_df['Timestamp'], dayfirst=True, errors='coerce')
+    evening_df['Timestamp'] = pd.to_datetime(evening_df['Timestamp'], dayfirst=True, errors='coerce')
     
     morning_df = morning_df.dropna(subset=['Timestamp'])
     evening_df = evening_df.dropna(subset=['Timestamp'])
@@ -42,18 +43,15 @@ def main():
     morning_df['Time'] = morning_df['Timestamp'].dt.strftime('%I:%M %p') 
     evening_df['Time'] = evening_df['Timestamp'].dt.strftime('%I:%M %p')
     
-    # 1. Grab all dates normally (NO MORE YESTERDAY SHIFT)
     morning_dates = set(morning_df['Date'].unique())
     evening_dates = set(evening_df['Date'].unique())
     all_dates_set = morning_dates.union(evening_dates)
     
-    # 2. FORCE "TODAY" IN IST TIMEZONE
     ist_offset = timedelta(hours=5, minutes=30)
     ist_tz = timezone(ist_offset)
     today_str = datetime.now(ist_tz).strftime('%Y-%m-%d')
     all_dates_set.add(today_str)
     
-    # Sort descending so Today is always at the very top [0]
     all_dates = sorted(list(all_dates_set), reverse=True)
     
     team_leads = ["aayush goyal", "rishab de", "ankur singh", "dhanendra kumar"]
@@ -65,7 +63,6 @@ def main():
         date_obj = datetime.strptime(date_str, '%Y-%m-%d')
         day_name = date_obj.strftime('%a') 
         
-        # Look for Morning and Evening on the EXACT same day
         day_morning = morning_df[morning_df['Date'] == date_str]
         day_evening = evening_df[evening_df['Date'] == date_str]
         
@@ -102,7 +99,6 @@ def main():
                 "vertical": row['Vertical'],
                 "morning_time": m_time if m_time else "-",
                 "evening_time": e_time if e_time else "-",
-                # Morning and Evening now share the exact same roster status
                 "morning_roster": roster_status,
                 "evening_roster": roster_status,
                 "is_lop": is_lop 
