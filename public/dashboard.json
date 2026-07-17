@@ -18,7 +18,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:02 AM",
-        "evening_time": "-",
+        "evening_time": "07:26 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -30,7 +30,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:17 AM",
-        "evening_time": "-",
+        "evening_time": "07:26 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -42,7 +42,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:24 AM",
-        "evening_time": "-",
+        "evening_time": "07:25 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -102,7 +102,7 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:13 AM",
-        "evening_time": "-",
+        "evening_time": "07:26 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -126,7 +126,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "10:22 AM",
-        "evening_time": "-",
+        "evening_time": "06:59 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -138,7 +138,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "10:16 AM",
-        "evening_time": "-",
+        "evening_time": "07:00 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -174,7 +174,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp High Cart",
         "morning_time": "10:00 AM",
-        "evening_time": "-",
+        "evening_time": "07:00 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -210,7 +210,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:28 AM",
-        "evening_time": "-",
+        "evening_time": "06:45 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -234,7 +234,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:26 AM",
-        "evening_time": "-",
+        "evening_time": "07:13 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -282,7 +282,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Very Low Cart",
         "morning_time": "10:19 AM",
-        "evening_time": "-",
+        "evening_time": "07:15 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -306,7 +306,7 @@
         "designation": "Executive",
         "vertical": "Abandoned Low Cart",
         "morning_time": "10:16 AM",
-        "evening_time": "-",
+        "evening_time": "07:03 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -318,7 +318,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:29 AM",
-        "evening_time": "-",
+        "evening_time": "07:02 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -330,7 +330,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:24 AM",
-        "evening_time": "-",
+        "evening_time": "06:56 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -342,7 +342,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:14 AM",
-        "evening_time": "-",
+        "evening_time": "07:44 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -354,7 +354,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:10 AM",
-        "evening_time": "-",
+        "evening_time": "07:48 PM",
         "morning_roster": "OFF",
         "evening_roster": "OFF",
         "is_lop": false
@@ -366,7 +366,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:26 AM",
-        "evening_time": "-",
+        "evening_time": "08:05 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -390,7 +390,7 @@
         "designation": "Executive",
         "vertical": "Immediate Retention Calling",
         "morning_time": "10:21 AM",
-        "evening_time": "-",
+        "evening_time": "07:07 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -414,7 +414,7 @@
         "designation": "Executive",
         "vertical": "Shop On Call",
         "morning_time": "10:50 AM",
-        "evening_time": "-",
+        "evening_time": "07:29 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -522,7 +522,7 @@
         "designation": "Executive",
         "vertical": "Shop On Whatsapp Low Cart",
         "morning_time": "10:12 AM",
-        "evening_time": "-",
+        "evening_time": "07:01 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
