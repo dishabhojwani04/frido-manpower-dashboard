@@ -61,18 +61,6 @@
     },
     {
         "date": "2026-07-18",
-        "agent_name": "Aditya Tiwari",
-        "email": "aditya.t@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-18",
         "agent_name": "Ayushi Rathore",
         "email": "ayushi.r@myfrido.com",
         "designation": "Executive",
@@ -717,18 +705,6 @@
         "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-17",
-        "agent_name": "Aditya Tiwari",
-        "email": "aditya.t@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "OFF",
-        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -1381,18 +1357,6 @@
     },
     {
         "date": "2026-07-16",
-        "agent_name": "Aditya Tiwari",
-        "email": "aditya.t@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-16",
         "agent_name": "Ayushi Rathore",
         "email": "ayushi.r@myfrido.com",
         "designation": "Executive",
@@ -2034,18 +1998,6 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:42 AM",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-15",
-        "agent_name": "Aditya Tiwari",
-        "email": "aditya.t@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
@@ -2701,18 +2653,6 @@
     },
     {
         "date": "2026-07-14",
-        "agent_name": "Aditya Tiwari",
-        "email": "aditya.t@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-14",
         "agent_name": "Ayushi Rathore",
         "email": "ayushi.r@myfrido.com",
         "designation": "Executive",
@@ -3361,18 +3301,6 @@
     },
     {
         "date": "2026-07-13",
-        "agent_name": "Aditya Tiwari",
-        "email": "aditya.t@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-13",
         "agent_name": "Ayushi Rathore",
         "email": "ayushi.r@myfrido.com",
         "designation": "Executive",
@@ -4015,18 +3943,6 @@
         "vertical": "Abandoned High Cart",
         "morning_time": "10:37 AM",
         "evening_time": "01:46 PM",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-12",
-        "agent_name": "Aditya Tiwari",
-        "email": "aditya.t@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
         "is_lop": false
@@ -4681,18 +4597,6 @@
     },
     {
         "date": "2026-07-11",
-        "agent_name": "Aditya Tiwari",
-        "email": "aditya.t@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-11",
         "agent_name": "Ayushi Rathore",
         "email": "ayushi.r@myfrido.com",
         "designation": "Executive",
@@ -5341,18 +5245,6 @@
     },
     {
         "date": "2026-07-10",
-        "agent_name": "Aditya Tiwari",
-        "email": "aditya.t@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "OFF",
-        "evening_roster": "OFF",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-10",
         "agent_name": "Ayushi Rathore",
         "email": "ayushi.r@myfrido.com",
         "designation": "Executive",
@@ -5994,18 +5886,6 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "05:49 AM",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-09",
-        "agent_name": "Aditya Tiwari",
-        "email": "aditya.t@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
@@ -6661,18 +6541,6 @@
     },
     {
         "date": "2026-07-08",
-        "agent_name": "Aditya Tiwari",
-        "email": "aditya.t@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-08",
         "agent_name": "Ayushi Rathore",
         "email": "ayushi.r@myfrido.com",
         "designation": "Executive",
@@ -7314,18 +7182,6 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "05:58 AM",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-07",
-        "agent_name": "Aditya Tiwari",
-        "email": "aditya.t@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
         "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
@@ -7981,18 +7837,6 @@
     },
     {
         "date": "2026-07-06",
-        "agent_name": "Aditya Tiwari",
-        "email": "aditya.t@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "10:34 AM",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-06",
         "agent_name": "Ayushi Rathore",
         "email": "ayushi.r@myfrido.com",
         "designation": "Executive",
@@ -8634,18 +8478,6 @@
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "10:55 AM",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-05",
-        "agent_name": "Aditya Tiwari",
-        "email": "aditya.t@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "10:54 AM",
         "evening_time": "-",
         "morning_roster": "DS",
         "evening_roster": "DS",
@@ -9301,18 +9133,6 @@
     },
     {
         "date": "2026-07-04",
-        "agent_name": "Aditya Tiwari",
-        "email": "aditya.t@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "10:20 AM",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-04",
         "agent_name": "Ayushi Rathore",
         "email": "ayushi.r@myfrido.com",
         "designation": "Executive",
@@ -9957,18 +9777,6 @@
         "evening_time": "06:47 PM",
         "morning_roster": "DS",
         "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-03",
-        "agent_name": "Aditya Tiwari",
-        "email": "aditya.t@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "OFF",
-        "evening_roster": "OFF",
         "is_lop": false
     },
     {
@@ -10621,18 +10429,6 @@
     },
     {
         "date": "2026-07-02",
-        "agent_name": "Aditya Tiwari",
-        "email": "aditya.t@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
-        "evening_time": "06:34 PM",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-07-02",
         "agent_name": "Ayushi Rathore",
         "email": "ayushi.r@myfrido.com",
         "designation": "Executive",
@@ -11271,18 +11067,6 @@
         "date": "2026-06-30",
         "agent_name": "Janhavi Patil",
         "email": "janhavi.patil@myfrido.com",
-        "designation": "Executive",
-        "vertical": "Abandoned High Cart",
-        "morning_time": "-",
-        "evening_time": "-",
-        "morning_roster": "DS",
-        "evening_roster": "DS",
-        "is_lop": false
-    },
-    {
-        "date": "2026-06-30",
-        "agent_name": "Aditya Tiwari",
-        "email": "aditya.t@myfrido.com",
         "designation": "Executive",
         "vertical": "Abandoned High Cart",
         "morning_time": "-",
